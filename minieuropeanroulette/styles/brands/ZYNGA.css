@@ -1,0 +1,252 @@
+.ZYNGA {
+    background: #26062f; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26062f), color-stop(63%,#641d8e), color-stop(100%,#631d8d)); 
+    background: -webkit-linear-gradient(top,  #26062f 0%,#641d8e 63%,#631d8d 100%); 
+    background: linear-gradient(to bottom,  #26062f 0%,#641d8e 63%,#631d8d 100%); 
+}
+.ZYNGA #menuHome{
+    color: transparent !important;
+    font-size:1px;
+    border-width: 0px;
+    margin-top:4px;
+}
+#totalBet{
+    text-align: left;
+}
+#balance{
+    text-align: right;
+}
+.ZYNGA #logo {
+    background: url("../../img/brands/ZYNGA/ZYNGA_menu_logo.png") no-repeat center;
+    background-size: 100% 90%;
+    padding-top: 2px;
+    width:33%;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    .ZYNGA #logo {
+        background: url("../../img/brands/ZYNGA/ZYNGA_menu_logo_l.png") no-repeat center;
+        background-size: 100% 100%;
+        top: 1%;
+        height: 37px;
+        width:90%;
+        left:5%;
+    }
+}
+.ZYNGA #reBuy, .ZYNGA #settings, .ZYNGA #help, .ZYNGA #menuHome{
+    background: url("../../img/brands/ZYNGA/ZYNGA_menu_buttons.png") no-repeat;
+    background-size: auto 370%;
+}
+.ZYNGA #menuHome{
+    background-position-x: 0%;
+    width:15px !important;
+    margin-left:6px;
+}
+.ZYNGA #reBuy{
+    position: absolute;
+    left: 40px;
+    background-position-x: 33%;
+    width:30px;
+}
+.ZYNGA #settings {
+    background-position-x: 65%;
+    margin-right: 12px !important;
+}
+.ZYNGA #help{
+    background-position-x: 92%;
+}
+.ZYNGA #reBuy.selected, .ZYNGA #settings.selected, .ZYNGA #help.selected, .ZYNGA #menuHome.selected{
+    background-position-y: 48%;
+}
+.ZYNGA #reBuy.disabled, .ZYNGA #settings.disabled, .ZYNGA #help.disabled,.ZYNGA #menuHome.disabled {
+    background-position-y: 92%;
+}
+.ZYNGA section{
+    color: #fff;
+    border-top:0px !important;
+    border-bottom:2px solid black !important;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .homeContainer{
+        display: block;
+        height:30px;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+    .ZYNGA {
+        background: #26062f; 
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#631d8d), color-stop(100%,#26062f)); 
+        background: -webkit-linear-gradient(left, #631d8d 0%,#26062f 100%); 
+        background: linear-gradient(to right,  #631d8d 0%,#26062f 100%); 
+    }
+    .ZYNGA #menuHome{
+        margin: 0 auto;
+        float:none;
+    }
+    .ZYNGA header ul{
+        position: absolute;
+        top: 80px;
+    }
+    #menu > header li {
+        margin-top: 1px!important;
+    }
+    .homeContainer, .ZYNGA header ul{
+        background: #4e146e; 
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5a257e), color-stop(49%,#58257c), color-stop(100%,#330f45)); 
+        background: -webkit-linear-gradient(left,  #5a257e 0%,#58257c 49%,#330f45 100%); 
+        background: linear-gradient(to right,  #5a257e 0%,#58257c 49%,#330f45 100%); 
+    }
+    .ZYNGA #reBuy{
+        position: static;
+    }
+    .ZYNGA #settings {
+        margin: 0 auto !important;
+    }
+    .totalBet_Balance{
+        position:absolute;
+        bottom:25px;
+        z-index: 1;
+    }
+    .game_id{
+        position:absolute;
+        bottom:20px;
+    }
+    .ZYNGA header ul:before,
+    .ZYNGA header ul li:after,
+    .homeContainer:before{
+        content: "";
+        display: block;
+        height: 1px;
+        margin: 0 5px;
+        width: 94%;
+        background: #531b74; 
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#531b74), color-stop(18%,#825c97), color-stop(86%,#825c97), color-stop(100%,#3f1058)); 
+        background: -webkit-linear-gradient(left,  #531b74 0%,#825c97 18%,#825c97 86%,#3f1058 100%); 
+        background: linear-gradient(to right,  #531b74 0%,#825c97 18%,#825c97 86%,#3f1058 100%); 
+    }
+    .ZYNGA div.game_info_landscape {
+        color: #fff;
+    }
+}
+@media (min-width: 500px) and (max-aspect-ratio: 4/3)
+{
+    #balance,#totalBet{
+        text-align:center;
+    }
+    .homeContainer {
+        height: 0px;
+    }
+    .ZYNGA #menuHome{
+        width:40px !important;
+        min-width: 40px !important;
+        margin-top:8px;
+    }
+    .ZYNGA #reBuy{
+        position: absolute;
+        left: 15%;
+    }
+    .ZYNGA #settings{
+        position: absolute;
+        right: 15%;
+    }
+}
+@media only screen and (min-width : 1000px) and (min-aspect-ratio: 4/3)
+{
+    #balance,#totalBet{
+        text-align:center;
+    }
+    .ZYNGA {
+        background: #26062f;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26062f), color-stop(63%,#641d8e), color-stop(100%,#631d8d));
+        background: -webkit-linear-gradient(top,  #26062f 0%,#641d8e 63%,#631d8d 100%);
+        background: linear-gradient(to bottom,  #26062f 0%,#641d8e 63%,#631d8d 100%);
+    }
+    #menu #logo {
+        height: 41px;
+        width:300px;
+    }
+    .ZYNGA #reBuy{
+        position: absolute;
+        left: 20%;
+    }
+    .ZYNGA #settings{
+        position: absolute;
+        right: 20%;
+    }
+    .homeContainer {
+        height: 0px;
+        top:0px;
+    }
+    .homeContainer:before{
+        height:0px;
+    }
+    .ZYNGA #menuHome{
+        margin:0px 0px 0px 7px;
+    }
+    .ZYNGA header ul {
+        top: 100px;
+    }
+    .ZYNGA #menuHome{
+        width:40px !important;
+        min-width: 40px !important;
+        margin-top:6px !important;
+    }
+}
+@media only screen and (min-width : 1000px) and (min-aspect-ratio: 4/3) and (max-height: 560px)
+{
+    .ZYNGA header ul {
+        top: 110px;
+    }
+    .homeContainer {
+        height: 50px;
+        top:60px;
+    }
+    .homeContainer:before{
+        height:1px;
+    }
+    .ZYNGA #menuHome{
+        background-position: 3% 4%;
+        min-width: 40px!important;
+        margin: 0 auto;
+        float:none;
+    }
+    .ZYNGA #reBuy,.ZYNGA #settings{
+        position: static !important;
+    }
+    #menu #logo{
+        height: 37px;
+        width:90%;
+        left:5%;
+    }
+}
+@media only screen and (min-width :500px) and (orientation : portrait)
+{
+    .ZYNGA #menuHome{
+        width:40px !important;
+        margin-top:7px;
+    }
+    .ZYNGA #reBuy{
+        position: absolute;
+        
+    }
+}
+@media only screen
+and (min-height: 1024px)
+and (max-height: 1280px)
+and (min-width: 600px)
+and (max-aspect-ratio: 4/3) {
+    #menu > section {
+        padding-top: 0;
+    }
+}
+@media only screen
+and (min-height: 320px)
+and (max-height: 640px)
+and (min-width: 240px)
+and (max-aspect-ratio: 4/3) {
+    #menu > section {
+        height: 11px;
+    }
+}

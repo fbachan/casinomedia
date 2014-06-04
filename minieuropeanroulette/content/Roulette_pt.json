@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Conta",
+    "backToLobby": "Voltar ao lobby",
+    "cancel": "Cancelar",
+    "home": "Início",
+    "loading": "Carregando…",
+    "initializing": "A iniciar…",
+    "ok": "OK",
+    "payIn": "Depósito",
+    "reload": "Recarregar jogo",
+    "completeCellPhoneReg": "Registo de telemóvel completo",
+    "keepPlaying": "Continuar a jogar",
+    "closeGames": "Fechar todos os jogos",
+    "closeGame": "Encerrar o jogo"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Saldo",
+    "id": "ID",
+    "totalBet": "Aposta total"
+  },
+  "aside": {
+    "history": "Histórico",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Apostas"
+  },
+  "gameButtons": {
+    "spin": "Rodar",
+    "double": "Dobro",
+    "undo": "Atrás",
+    "clearBets": "Limpar",
+    "rebetSpin": "Rebet&Rodar",
+    "doubleAndSpin": "2x&Rodar",
+    "newBet": "Nova aposta",
+    "backToTable": "Voltar à mesa"
+  },
+  "rules": {
+    "backToGame": "Voltar ao jogo",
+    "rules": "Regras",
+    "RGLink": "Site do jogo responsável",
+    "rMalfunction": "O mau funcionamento anula todos os pagamentos.",
+    "rDenominations": "Denominações",
+    "rateOfReturn": "A percentagem teórica de ganhos para o jogador neste jogo é 91,78%."
+  },
+  "settings": {
+    "settings": "Definições",
+    "turboMode": "Modo turbo",
+    "on": "ON",
+    "off": "OFF",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "O jogo não funciona no modo janela minimizada e multi-janela. Por favor, maximize a janela do jogo, carregando no botão de ecrã completo na janela do browser para continuar.",
+    "wantToRemove": "Deseja remover todas as fichas?",
+    "minStake": "Tem de fazer uma aposta mais alta, uma vez que a aposta mínima é de {0}.",
+    "maxStake": "Não pode apostar esta quantia uma vez que a aposta máxima é de {0}.",
+    "cannotDouble": "Algumas apostas na mesa não podem ser duplicadas por causa das opções dos limites de apostas. Duplicámos as apostas que podiam ser duplicadas.",
+    "cannot1to18": "Não pode apostar ao mesmo tempo no 1-18 e no 19-36.",
+    "cannotODDtoEVEN": "Não pode apostar ao mesmo tempo no Par e no Ímpar.",
+    "cannotREDtoBLACK": "Não pode apostar ao mesmo tempo no Vermelho e no Preto.",
+    "cannotThreeDozens": "Não pode apostar ao mesmo tempo nas três dúzias.",
+    "cannotThreeColumns": "Não pode apostar ao mesmo tempo nas três colunas.",
+    "cannotAdjColumns": "Não poderá apostar em colunas adjacentes em simultâneo.",
+    "cannotAdjDozens": "Não poderá apostar em dúzias adjacentes em simultâneo.",
+    "needPlaceBet": "É necessário que faça uma aposta",
+    "loginProblem": "Ocorreu um problema com o login ao servidor.<br> Por favor, reinicie o jogo.",
+    "knownError": "Ocorreu um erro.<br>Erro: {0}<br>{1}",
+    "serverDown": "Note que devido a uma manutenção rotineira por parte do nosso sistema, não nos é possível lançar nenhum jogo novo de momento. Confira o nosso site em intervalos regulares para continuar a jogar. Lamentamos qualquer inconveniente causado.",
+    "geoBlocked": "Infelizmente, este jogo está indisponível de momento para jogadores da sua região. No entanto, poderá jogar  outros jogos por isso passe pela entrada e veja o que temos para si.",
+    "gameDisabled": "Infelizmente, este jogo está de momento indisponível. Poderá  jogar outros jogos, por isso passe pela entrada e veja o que temos para si.",
+    "notAvailable": "O jogo não está disponível.<br>{0}",
+    "loggedOnOtherMachine": "A sua sessão foi interrompida porque este utilizador fez login de outro sítio.",
+    "lowBalance": "O saldo da sua conta é demasiado baixo para fazer esta aposta.",
+    "lobbyAccountBalanceLimitation": "De momento, não pode jogar a dinheiro real porque não tem dinheiro suficiente na sua conta ou então por causa de outras limitações. Poderá fazer um depósito agora ou então jogar no modo “play for fun”.",
+    "tryingReconnect": "A ligação à servidor foi interrompida.<br>A tentar restabelecê-la…",
+    "failedRestore": "A ligação ao servidor caiu.<br>Falha ao tentar restabelecer a ligação.<br>Volte a tentar carregar o jogo.",
+    "changeLimits": "Gostaria de alterar os meus limites.",
+    "error_40015": "A sua sessão de tempo de jogo responsável expirou. Deseja continuar?",
+    "error_60144": "Excedeu o seu limite diário de perdas, pelo que hoje não poderá jogar mais. Por favor, volte a jogar amanhã.",
+    "error_59532": "O valor selecionado ultrapassa o limite de perda que você definiu. Você só pode levar {0} para um jogo de cassino.",
+    "error_61869": "Não lhe é permitido participar em jogos a dinheiro real ou aceder ao b’inside Market a partir deste produto. Por favor, contacte o nosso serviço de apoio a clientes para mais informações.",
+    "error_61870": "Você auto-excluiu-se de todos os produtos a título permanente. <br><br>Assim, não pode jogar, fazer depósitos, nem aceder às páginas da sua conta. Contacte o serviço de apoio a clientes se tiver alguma questão.",
+    "error_61871": "Você decidiu encerrar este produto na sua conta. Não lhe é permitido jogar a dinheiro real nem aceder à loja de pontos deste produto. Consulte a secção 'Encerramento de serviços' para mais<br>informações e para alterar as definições.",
+    "error_61872": "Não lhe é permitido fazer rebuy e/ou add on neste produto. Por favor, contacte o serviço de apoio a clientes para <br> mais informações.",
+    "error_61873": "Escolheu este produto na sua conta. Não lhe é permitido fazer rebuy e/ou add on. <br>, Por favor, vá à secção \"Encerramento de serviços\" para obter mais informações e alterar as suas definições. Clique em OK para ir para a página de \"Encerramento de serviços\".",
+    "error_61874": "Você auto-excluiu-se de todos os nossos produtos. Por isso, não poderá fazer <br>rebuy/add on. Contacte o serviço de apoio a clientes se tiver alguma questão.",
+    "error_61875": "Você auto-excluiu-se de todos os nossos produtos a título permanente. Por isso, não poderá fazer rebuy/add on. <br> Contacte o serviço de apoio a clientes se tiver alguma questão.",
+    "error_61876": "Você auto-excluiu-se de todos os nossos produtos. <br><br>Durante este período, não pode jogar, fazer depósitos, nem aceder às páginas da sua conta. Por favor, contacte o serviço de apoio a clientes se tiver alguma questão.",
+    "error_40387": "A última operação não pôde ser realizada. O jogo irá encerrar-se agora. Por favor abra o jogo novamente.",
+    "error_64707": "Você escolheu um montante que excede o seu limite de gastos  semanais e apenas lhe resta {0}.",
+    "error_64708": "Você escolheu um montante que excede o seu limite de gastos semanais e apenas lhe resta {0}.",
+    "error_64709": "Você escolheu um montante que excede o seu limite de gastos mensais e apenas lhe resta {0}.",
+    "error_64710": "Ups, já ultrapassou o seu limite de gastos diários.",
+    "error_64711": "Ups, já ultrapassou o seu limite de gastos semanais.",
+    "error_64712": "Ups, já ultrapassou o seu limite de gastos mensais.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "Gostaríamos de lhe dizer que tem estado a jogar há mais de {0} minutos.<br>Eis os seus ganhos/as suas perdas nesta sessão de jogo: <span>{1}</span><br>O seu saldo: <span>{2}</span><br> Pretende continuar a jogar?",
+    "PR_RCPClosed": "Você optou por terminar a sua sessão de jogo a partir de outro jogo. Este jogo será encerrado agora.",
+    "PR_SessionTimeLimit": "Foi-lhe dado o máximo de tempo de jogo de {0} minutos.<br/>Você tem estado a jogar há {1} minutos nesta sessão.<br/><br/>Poderá continuar a jogar ou optar por sair do jogo se assim o entender.",
+    "USNJ_GeoLocMsg1": "Lamentamos, mas não pudemos validar a sua localização por motivos técnicos. Tente de novo.",
+    "USNJ_GeoLocMsg2": "Lamentamos, mas não pode continuar. O nosso sistema indica que se encontra numa região que não permite esta operação. Isto justifica-se por restrições legais.<BR><BR>Se estiver a ver esta mensagem no estado de New Jersey, recomendamos-lhe que consulte as nossas <a href='{0}'>Perguntas frequentes</a>.",
+    "USNJ_GeoLocMsg3": "Não conseguimos confirmar que a sua localização física se encontra em New Jersey. Se nos fornecer o seu número de telemvóvel e se se registar nos serviços de localização, é mais fácil localizá-lo para assim poder jogar no nosso site.",
+    "USNJ_SessionTimeLimit": "Pediu-nos que lhe definíssemos um limite de tempo diário, o qual já foi atingido por hoje. Obrigado por jogar connosco. Poderá voltar a jogar novamente amanhã."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

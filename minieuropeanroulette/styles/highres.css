@@ -1,0 +1,1430 @@
+
+#mess_table .tl,
+#mess_table .tr,
+#mess_table .bl,
+#mess_table .br {
+    min-width: 40px;
+    height: 40px;
+    background-size: auto;
+}
+#mess_table .tr {
+    background-position: -40px 0px;
+}
+#mess_table .bl {
+    background-position: 0 -40px;
+}
+#mess_table .br {
+    background-position: -40px -40px;
+}
+.ico{
+    background-size: 57px 57px;
+    padding-left:80px;
+    padding-bottom: 15px;
+    font-size:28px;
+    min-height: 57px;
+}
+.ico>span>span{
+    white-space: nowrap;
+}
+#incorrectSizeMsg {
+    font-size: 28px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .ico{
+        padding-left:100px;
+    }
+}
+.modal_button, .general_button {
+    min-width: 200px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .modal_button, .general_button {
+        min-width : 180px;
+    }
+}
+#msg_btns_container .button > span,
+.general_button > span
+{
+    padding-left:30px;
+    font-size: 20px;
+    height: 60px;
+    line-height: 50px;
+    background-size: auto 902%;
+}
+#msg_btns_container .button,
+.general_button {
+    height: 60px;
+    padding-right: 33px;
+    background-size: auto 902%;
+}
+.general_button:active span {
+    background-size: auto 900%;
+    background-position: 0 100%;
+}
+.general_button:active{
+    background-position: 104% 100%;
+    background-size: auto 900%;
+}
+#lobbyView{
+	background-size		: 100%, 100% 100%;
+}
+#licens{
+    font-size: 13px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#lobbyView{
+		background-size		: 75%, 100% 100%;
+	}
+}
+#info{
+	bottom : 15%;
+}
+#info span{
+	font-size : 24px;
+    padding-left:18px;
+}
+#spiner{
+	width : 42px;
+	height : 42px;
+}
+#lobbyView .secondary_button{
+	width: 124px;
+	font-size: 20px;
+	margin : 30px;
+	padding-top : 119px;
+}
+#enter_buttons_holder{
+	width : 100%;
+	bottom : 70px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#enter_buttons_holder{
+		width : inherit;
+		padding : 0px;
+		bottom : 30px;
+	}	
+}
+#lobbyView .main_button  {
+	height: 96px;
+    width: 320px;
+}
+@media ( min-aspect-ratio: 4/3 ) {
+    #lobbyView .main_button {
+        margin: 0px 30px;
+        display:inline-block;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+	#gameBody{
+		position: absolute;
+        top: 81px;
+        bottom: 0px;
+		height: auto;
+	}	
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#gameBody > section{
+		width: auto;
+		height: 100%;
+	}	
+}
+#gameBody aside{
+	width : 158px;
+	background-size : 8px 100%;
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#gameBody aside{
+		background-size : 100% 8px;
+		width : 100%;
+		height: 124px;
+        bottom: 0px;
+	}	
+}
+#menu{
+    height: 81px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+    
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #menu{
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0;
+        border-right-width: 3px;
+        -webkit-border-image: url("../img/footer_border_vertical.png") 0 30 0 0 stretch stretch;
+        height: 100%;
+        width: 125px;
+    }
+    #menu > header {
+        height: 90%;
+    }
+    #logo {
+        position: absolute;
+        width: 100%;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #menu{
+        width: 100%;
+        height: 81px;
+        position: absolute;
+        top: -81px;
+        z-index: 10;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        
+        
+    }
+    #menu > header {
+        padding-top:0px;
+        display: block;
+        height: 52px;
+    }
+}
+#menu a {
+    height: 40px;
+}
+#menu #menuHome {
+    border-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 38px !important;
+    min-width: 100px;
+    font-size: 24px;
+    line-height: 39px;
+    margin-top: 5px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #menuHome {
+        float: none;
+        margin: 5px auto;
+    }
+}
+.clockContainer {
+    height: 27px !important;
+    margin-top: -4px;
+    line-height: 27px;
+    width: 60px !important;
+    min-width: 60px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .clockContainer {
+        width: 50px !important;
+        height: 26px !important;
+        margin-top: -1px;
+        line-height: 28px;
+        font-size: 18px !important;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #menu #menuHome {
+        float: left;
+        height: 38px !important;
+        margin: 4px 5px 0 15px !important;
+        line-height: 39px;
+    }
+    #menu header .game_info_landscape {
+        display: none;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #menu .boxFlex1 {
+        display: block;
+    }
+    .clockContainer {
+        line-height: 22px;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #menu .boxFlex1 {
+        display: none;
+    }
+}
+#menu > header ul li {
+    margin-right: 10px;
+}
+@media only screen and (min-width :560px) and (orientation : portrait)
+{
+    #menu > header ul li {
+        margin-top:5px;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #menu > header ul {
+        overflow: hidden;
+        float: none;
+    }
+    #menu > header li {
+        display: block;
+        margin-top: 5px;
+        width: 100%;
+    }
+    #menu > header ul li {
+        margin-right: 0;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #menu > header ul {
+        background: none;
+        display: block;
+        float: right;
+        position: static;
+    }
+    #menu > header ul li {
+        display: inline-block;
+        float: left;
+        margin-top: 5px;
+        width: auto;
+    }
+}
+#menu #reBuy{
+    width: 62px;
+}
+#menu #settings {
+    width: 40px;
+}
+#menu #help {
+    width: 30px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #menu #help, #menu #settings, #menu > header li a {
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #menu #logo {
+        height: 30px;
+        margin: 5px auto;
+        position: static;
+    }
+}
+#menu > section {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 4px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #menu div.game_info_landscape {
+        display: block;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        float: none;
+        text-align: justify;
+        margin: 3px 5px 3px 10px;
+        line-height: 18px;
+    }
+    #menu div.game_info_landscape span {
+        display: block;
+    }
+    #menu div.game_info_landscape .game_sequence_id {
+        display: inline;
+        letter-spacing: -1px;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #menu > section {
+        border-bottom: 1px solid #686564;
+        border-top: 1px solid #686564;
+        display: block;
+        height: 32%;
+        padding-top: 2px;
+        width: 100%;
+        line-height: 19px;
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: stretch;
+        display: -moz-box;
+        -moz-box-orient: horizontal;
+        -moz-box-align: stretch;
+        display: box;
+        box-orient: horizontal;
+        box-align: stretch;
+    }
+    #menu > section div {
+        height: 100%;
+        width: 30%;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        box-flex: 1;
+    }
+    #menu > section div span {
+        display: inline;
+    }
+    #menu header ul:before,
+    #menu header ul li:after {
+        display: none;
+    }
+    #totalBet, #balance, #gameSequenceId{
+        line-height: 23px;
+    }
+}
+.turbo_trigger > div, .sfx_trigger > div {
+    width: 360px !important;
+    height: 90px;
+}
+.text_settings {
+    font-size: 25px;
+}
+.on_off {
+    line-height: 90px;
+    font-size: 25px;
+}
+.trigger {
+    width: 50%;
+    height: 84px;
+    background-position: -389px 6px;
+}
+.trigger.on {
+    background-position: -568px 6px;
+}
+.rtp{
+    height:70px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #helpPage, #settingsPage{
+        left: 128px;
+    }
+}
+#help_scroller h2 {
+    font-size: 32px;
+}
+#help_scroller h3 {
+    font-size: 30px;
+}
+.help_bet{
+    width:300px;
+    height:393px;
+}
+.help_draw{
+    width:300px;
+    height:209px;
+}
+#help_scroller{
+    padding-bottom:35px;
+}
+#help_scroller table td.verticalHead {
+    width:50px;
+}
+#help_scroller .numbers{
+    left: -21px;
+    width: 98px;
+}
+#help_scroller .chance{
+    left: -13px;
+}
+#help_scroller table{
+    font-size: 20px;
+}
+#help_scroller table caption{
+    font-size: 28px;
+}
+#helpPage .wrapper, #settingsPage .wrapper{
+    padding-top : 84px;
+}
+@media (min-aspect-ratio: 4/3) {
+    #helpPage .wrapper, #settingsPage .wrapper {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+.help_header {
+    height: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 80px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 4px;
+    -webkit-border-image: url("../img/footer_border_horizontal.png") 0 0 40 0 stretch stretch;
+}
+@media (min-aspect-ratio: 4/3) {
+    .help_header {
+        border-left: 0;
+        border-right: 0;
+        border-top-width: 4px;
+        border-bottom-width: 4px;
+        -webkit-border-image: url("../img/footer_border_horizontal.png") 40 0 40 0 stretch stretch;
+    }
+}
+.help_scroll_box {
+    font-size: 28px;
+    top: 185px;
+    bottom: 90px;
+    left: 20px;
+    right: 20px;
+    padding: 25px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .help_scroll_box {
+        top: 115px;
+        bottom: 90px;
+        left: 30px;
+        right: 30px;
+        padding: 25px;
+    }
+}
+.help_button {
+    margin:0;
+    position: absolute;
+    bottom: 5px;
+    margin-left: -116px;
+}
+.history_btn_link,.zoom_btn_link {
+    width: 158px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_btn_link,.zoom_btn_link {
+        width: 108px;
+    }
+}
+.history_btn_link span:first-child,.zoom_btn_link span:first-child {
+    width: 85px;
+    height: 83px;
+}
+.zoom_btn_link {
+    margin-top: 20px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_btn_link,.zoom_btn_link {
+        margin: 25px 0 0 0;
+    }
+}
+.btn_txt {
+    width: 158px;
+    top:75px;
+    font-size: 16px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .btn_txt {
+        width: 108px;
+        bottom: -25px;
+    }
+}
+.play_wheel_history {
+    position: relative;
+}
+@media (min-aspect-ratio: 4/3) {
+    .play_wheel_history {
+        bottom: 0px;
+        height: 99px;
+        position: absolute;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#zoom{
+		display : none;
+	}
+}
+.history_container {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 4px;
+    -webkit-border-image: url("../img/footer_border_horizontal.png") 0 0 40 0 stretch stretch;
+    height: 108px;
+}
+@media (max-aspect-ratio: 4/3) and ( max-width : 610px )
+{
+    .history_container {
+        height: 94px;
+    }
+    .history_btn_link {
+        margin-top: 6px;
+    }
+    .zoom_btn_link {
+        margin-top: 15px;
+    }
+    .zoom_btn_link span:first-child,.history_btn_link span:first-child {
+        width: 70px;
+        height: 64px;
+        background-size: 300% 310%;
+    }
+    .btn_txt {
+        top:58px;
+        font-size: 14px;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px ){
+    .history_btn_link,.zoom_btn_link {
+        margin: 25px 0 0 0;
+    }
+    .btn_txt {
+        top: 70px;
+        bottom: -25px;
+    }
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_container {
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0;
+        border-right-width: 4px;
+        -webkit-border-image: url("../img/footer_border_vertical.png") 0 40 0 0 stretch stretch;
+        height: 100%;
+        width: 108px;
+    }
+}
+.history_slider {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_slider {
+        height: 80%;
+        width: 100%;
+    }
+}
+.history_arrow {
+    height: 75px;
+    width: 55px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_arrow {
+        width: 75px;
+        height: 55px;
+        margin-left: 20px;
+    }
+}
+.history_arrow.a_left {
+    background-position: 0 0;
+}
+.history_arrow.a_left.selected {
+    background-position: 0 -75px;
+}
+.history_arrow.a_left.disabled {
+    background-position: 0 -150px;
+}
+.history_arrow.a_right {
+    background-position: -55px 0;
+}
+.history_arrow.a_right.selected {
+    background-position: -55px -75px;
+}
+.history_arrow.a_right.disabled {
+    background-position: -55px -150px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_arrow.a_left {
+        background-position: 0 0;
+    }
+    .history_arrow.a_left.selected {
+        background-position: -78px 0;
+    }
+    .history_arrow.a_left.disabled {
+        background-position: -156px 0;
+    }
+    .history_arrow.a_right {
+        background-position: 0 -55px;
+    }
+    .history_arrow.a_right.selected {
+        background-position: -78px -55px;
+    }
+    .history_arrow.a_right.disabled {
+        background-position: -156px -55px;
+    }
+}
+.history_nums {
+    height: 90px;
+    display: table;
+    margin: 9px 0;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_nums {
+        width: 90px;
+        height: auto;
+        display: block;
+        margin: 0 9px;
+    }
+}
+.history_nums .cell {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 16px;
+    text-shadow: -1px -1px #000, -1px 1px #000, 1px 1px #000, 1px -1px #000,
+    -1px -1px 0px #000, -1px 1px #000, 2px 1px 2px #000, 2px -1px 2px #000;
+    cursor: pointer;
+    display: table-cell;
+    text-align: center;
+    width: 40px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_nums .cell {
+        padding: 1px 2px;
+        display: block;
+        width: 100%;
+    }
+}
+.history_nums .cell.selected {
+    text-shadow: -1px -1px #000, -1px 1px #000, 1px 1px #000, 1px -1px #000,
+    -1px -1px 0px #000, -1px 1px #000, 2px 1px 2px #000, 2px -1px 2px #000,
+    0px -1px 7px #f7ed52,
+    0px  1px 7px #f7ed52,
+    -1px  0px 7px #f7ed52,
+    1px  0px 7px #f7ed52,
+    -1px -1px 7px #f7ed52,
+    -1px  1px 7px #f7ed52,
+    1px -1px 7px #f7ed52,
+    1px  1px 7px #f7ed52;
+}
+.history_nums .cell.red {
+    color: #f00;
+    vertical-align: top;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_nums .cell.red  {
+        text-align: left;
+    }
+}
+.history_nums .cell.black {
+    color: #fff;
+    vertical-align: bottom;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_nums .cell.black  {
+        text-align: right;
+    }
+}
+.history_nums .cell span {
+    display: block;
+    width: 40px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .history_nums .cell span {
+        display: inline;
+    }
+}
+.history_nums li {
+    display: table-cell;
+    height: 100%;
+}
+#chipBoard {
+    width: 100%;
+    height: 100%;
+}
+@media (min-aspect-ratio: 4/3) {
+    #chipBoard {
+        width: 50%;
+        height: 100%;
+    }
+}
+#chipBoard .chips_wrapper {
+    height: 410px;
+    width: 90px;
+    margin: 0 0 25px 40px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px )
+{
+    #chipBoard .chips_wrapper {
+        width: 455px;
+        height: 90px;
+        margin: 18px 50px 0 0;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px )
+{
+    #chipBoard .chips_wrapper {
+        width: 455px;
+        height: 90px;
+        margin: 18px 115px 0 0;
+    }
+}
+.chips_slider_container {
+    height: 375px;
+    width: 90px;
+    margin: 17px 0 0 0;
+}
+@media (min-aspect-ratio: 4/3) {
+    .chips_slider_container {
+        width: 410px;
+        height: 90px;
+        margin: 0 0 0 21px;
+    }
+}
+.chips_slider_container ul {
+    padding: 0;
+    float: left;
+    height: 580px;
+    width: 100%;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: static;
+}
+@media (min-aspect-ratio: 4/3) {
+    .chips_slider_container ul {
+        min-width: 665px !important;
+        height: 100%;
+        position: static;
+        display: block;
+    }
+}
+.chips_slider_container ul li {
+    margin: 5px 0 0 0;
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .chips_slider_container ul li {
+        float: left;
+        margin: 0 0 0 18px;
+        height: 100%;
+        width: 90px;
+    }
+}
+.chips_slider_container ul li:first-child {
+    margin-top: 0;
+}
+@media (min-aspect-ratio: 4/3) {
+    .chips_slider_container ul li:first-child {
+        margin-left: 0;
+    }
+}
+.chips_slider_container .chips {
+    width: 90px;
+    height: 87px;
+    left: 0;
+    margin-left: 2px;
+    font-size: 18px;
+    line-height: 89px;
+    text-indent: -6px;
+}
+@media (min-aspect-ratio: 4/3) {
+    .chips_slider_container .chips {
+        margin-left: 0;
+        text-indent: 0;
+    }
+}
+#chipBoard .cover {
+    height: 45px;
+    width: 95px;
+    margin-left: -49px;
+}
+@media (min-aspect-ratio: 4/3) {
+    #chipBoard .cover {
+        width: 45px;
+        height: 95px;
+    }
+}
+#chipBoard .cover.back {
+    top: -7px;
+}
+@media (min-aspect-ratio: 4/3) {
+    #chipBoard .cover.back {
+        background-position: 0px 0px;
+        top: -1px;
+        left: 45px;
+    }
+}
+#chipBoard .cover.next {
+    background-position: 0px -46px;
+    bottom: -7px;
+}
+@media (min-aspect-ratio: 4/3) {
+    #chipBoard .cover.next {
+        background-position: -46px 0px;
+        left: 102%;
+    }
+}
+.chips_slider_container .chips.chip0 {
+    text-indent: 0px;
+    background-position: 0 7px;
+    margin-left: -1px;
+}
+.chips_slider_container .chip0.selected {
+    background-position: 0 -86px;
+    margin-left: -1px;
+}
+.chips_slider_container .chip0.disable {
+    background-position: 0 -177px;
+}
+.chips_slider_container .chips.chip1 {
+    background-position: -93px 7px;
+}
+.chips_slider_container .chip1.selected {
+    background-position: -93px -86px;
+    margin-top: 1px;
+}
+.chips_slider_container .chip1.disable {
+    background-position: -93px -177px;
+}
+.chips_slider_container .chips.chip2 {
+    background-position: -184px 5px;
+}
+.chips_slider_container .chip2.selected {
+    background-position: -184px -86px;
+    margin-top: 1px;
+}
+.chips_slider_container .chip2.disable {
+    background-position: -184px -177px;
+}
+.chips_slider_container .chips.chip3 {
+    background-position: -274px 5px;
+}
+.chips_slider_container .chip3.selected {
+    background-position: -274px -86px;
+    margin-top: 1px;
+}
+.chips_slider_container .chip3.disable {
+    background-position: -274px -177px;
+}
+.chips_slider_container .chips.chip4 {
+    background-position: -363px 5px;
+}
+.chips_slider_container .chip4.selected {
+    background-position: -363px -86px;
+    margin-top: 1px;
+}
+.chips_slider_container .chip4.disable {
+    background-position: -363px -177px;
+}
+.chips_slider_container .chips.chip5 {
+    background-position: -454px 5px;
+}
+.chips_slider_container .chip5.selected {
+    background-position: -454px -86px;
+    margin-top: 1px;
+}
+.chips_slider_container .chip5.disable {
+    background-position: -454px -177px;
+}
+@media (min-aspect-ratio: 4/3) {
+    
+    .chips_slider_container .chips.chip1 {
+        background-position: -90px 7px;
+    }
+    .chips_slider_container .chip1.selected {
+        background-position: -90px -86px;
+        margin-top: 1px;
+    }
+    .chips_slider_container .chip1.disable {
+        background-position: -90px -177px;
+    }
+    
+    .chips_slider_container .chips.chip2 {
+        background-position: -181px 7px;
+    }
+    .chips_slider_container .chip2.selected {
+        background-position: -181px -86px;
+        margin-top: 1px;
+    }
+    .chips_slider_container .chip2.disable {
+        background-position: -181px -177px;
+    }
+    
+    .chips_slider_container .chips.chip3 {
+        background-position: -271px 7px;
+    }
+    .chips_slider_container .chip3.selected {
+        background-position: -271px -86px;
+        margin-top: 1px;
+    }
+    .chips_slider_container .chip3.disable {
+        background-position: -271px -177px;
+    }
+    
+    .chips_slider_container .chips.chip4 {
+        background-position: -361px 7px;
+    }
+    .chips_slider_container .chip4.selected {
+        background-position: -361px -86px;
+        margin-top: 1px;
+    }
+    .chips_slider_container .chip4.disable {
+        background-position: -361px -177px;
+    }
+    
+    .chips_slider_container .chips.chip5 {
+        background-position: -451px 7px;
+    }
+    .chips_slider_container .chip5.selected {
+        background-position: -451px -86px;
+        margin-top: 1px;
+    }
+    .chips_slider_container .chip5.disable {
+        background-position: -451px -177px;
+    }
+}
+#playTable{
+	left : 165px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#playTable{
+		bottom : 133px;
+		left : 0px;
+	}	
+}
+.wheelPart{
+    background-size : 86px 378px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .wheelPart{
+        background-size : 378px 86px;
+    }
+}
+.playtable_tooltip {
+    height: 84px;
+}
+.playtable_tooltip .bet {
+    font-size: 24px;
+    margin: 14px 25px 0;
+}
+.playtable_tooltip.bottom .bet {
+    margin: 22px 15px 0;
+}
+.playtable_tooltip .ratio {
+    font-size: 20px;
+    margin: 2px 25px;
+}
+@media (max-aspect-ratio: 4/3)
+{
+    #tapTrackHolder{
+        width	: 355px;
+        height 	: 579px;
+    }
+    #tapTrackHolder.zoom{
+        width : 533px;
+        height : 869px;
+    }
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#tapTrackHolder{
+		width	: 644px;
+		height 	: 347px;
+	}
+	#tapTrackHolder.zoom{
+		width : 805px;
+		height : 434px;
+	}
+}
+#tapTrackHolder .chips{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 9px;
+    letter-spacing: -1px;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-top: 0px;
+}
+@media (min-aspect-ratio: 4/3)and ( max-height : 560px )
+{
+    #tapTrackHolder .chips{
+        margin-left:2px;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chips{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        letter-spacing: -1px;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin-top: -2px;
+	}	
+}
+#tapTrackHolder.zoom .chips{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    letter-spacing: -1px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#tapTrackHolder .chip0{
+    background-position: -8px -4px;
+}
+#tapTrackHolder.zoom .chip0{
+    background-position: -11px -6px;
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chip0{
+        background-position: -11px -6px;
+	}	
+}
+#tapTrackHolder .chip1{
+    background-position: -57px -4px;
+}
+#tapTrackHolder.zoom .chip1{
+    background-position: -81px -6px;
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chip1{
+        background-position: -81px -6px;
+	}	
+}
+#tapTrackHolder .chip2{
+    background-position: -108px -4px;
+}
+#tapTrackHolder.zoom .chip2{
+    background-position: -153px -6px;
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chip2{
+        background-position: -153px -6px;
+	}	
+}
+#tapTrackHolder .chip3{
+    background-position: -157px -4px;
+}
+#tapTrackHolder.zoom .chip3{
+    background-position: -224px -6px;
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chip3{
+        background-position: -224px -6px;
+	}	
+}
+#tapTrackHolder .chip4{
+    background-position: -206px -4px;
+}
+#tapTrackHolder.zoom .chip4{
+    background-position: -294px -6px;
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chip4{
+        background-position: -294px -6px;
+	}	
+}
+#tapTrackHolder .chip5{
+    background-position: -256px -4px;
+}
+#tapTrackHolder.zoom .chip5{
+    background-position: -365px -6px;
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ), (max-aspect-ratio: 4/3) and ( min-width : 610px )
+{
+	#tapTrackHolder .chip5{
+        background-position: -365px -6px;
+	}	
+}
+#playWheel{
+	position : absolute;
+	top : 0px;
+	bottom : 120px;
+	left : 0px;
+	right : 0px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#playWheel{
+        bottom : 0px;
+		right : 115px;
+	}	
+}
+#animation{
+	width : 569px;
+	height : 446px;
+}
+#wheel{
+	top : 17px;
+	left : 96px;
+	width : 371px;
+	height : 310px;
+}
+#ball{
+	left: 170px;
+	top: 233px;
+	width: 48px;
+	height: 22px;
+}
+.win_text {
+    width: 298px;
+    height: 151px;
+    margin: 110px auto 0;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px ) {
+    .win_text {
+        width: 298px;
+        height: 151px;
+        margin: 25px auto 0;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( min-height : 560px ){
+    .win_text {
+        width: 298px;
+        height: 151px;
+        margin: 140px auto 0;
+    }
+}
+.win_amount {
+    font-size: 64px;
+}
+.win_number {
+    height: 138px;
+    margin-left: -100px;
+    width: 200px;
+}
+.win_number.red {
+    background-position: -2px 0;
+}
+.win_number.black {
+    background-position: -203px 0;
+}
+.win_number.black.last {
+    background-position: -600px 0;
+}
+.win_number.red.first {
+    background-position: -401px 0;
+}
+.win_number.green {
+    background-position: -799px 0;
+}
+.win_number div {
+    font-size: 40px;
+    margin: 15px 0 0 12px;
+    width: 50px;
+}
+#yourBets, #darkening{
+	height : 120px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    #darkening{
+        width : 115px;
+        height : 100%;
+    }
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px ) {
+    #darkening{
+        top: 0px;
+    }
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#yourBets{
+        background-position: 8px 0px,-676px 0px;
+        background-size: 4px 111%,795px auto;
+		width : 115px;
+		height : 100%;
+	}	
+}
+#yourBets > header{
+    min-height: 36px;
+    font-size:19px;
+    line-height: 2.37;
+    margin-top:-2px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    #yourBets > header{
+        height: 60px;
+        line-height:3;
+        padding-left: 3px;
+    }
+}
+#yourBets > section{
+    background-position-y: -277px;
+    background-size: auto 459%;
+    height: 77px;
+}
+#yourBets .arrow
+{
+    width: 56px;
+    height: 72px;
+    background-position-y: 10px;
+}
+#yourBets .disabled{
+    background-position-y: -129px !important;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    #yourBets .disabled {
+        background-position-y: -130px !important;
+    }
+}
+#yourBets .right{
+    background-position-x: -54px;
+}
+#yourBets .arrow.selected{
+    background-position-y: -61px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    #yourBets .arrow.selected {
+        background-position-y: -64px;
+    }
+}
+#yourBetsAlignContainer{
+    height:52px;
+    width:80px;
+}
+#yourBetsHolder{
+    height:52px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    #yourBetsHolder{
+        width:80px;
+    }
+}
+#yourBetsScroller{
+    height:52px;
+}
+#yourBetsHolder li{
+    width:80px;
+    height:52px;
+    margin-right:10px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    #yourBetsScroller li{
+        margin-bottom:10px;
+        min-height:52px;
+    }
+}
+#yourBetsScroller a{
+    height:52px;
+    width:80px;
+    text-shadow: -1px -1px #000, -1px 1px #000, 1px 1px #000, 1px -1px #000,
+    -1px -1px 0px #000, -1px 1px #000, 2px 1px 2px #000, 2px -1px 2px #000;
+}
+.redBet, .greenBet, .blackBet{
+    font-size:18px;
+    background-size: auto 342px
+}
+.redBet, .greenBet, .blackBet{
+    line-height:2.5;
+}
+.fourNumbersBet, .sixNumbersBet, .threeNumbersBet, .twoNumbersBet, .nineteen_to_thirtysix{
+    line-height:19px;
+    font-size:18px;
+}
+.fourNumbersBet, .twoNumbersBet{
+    padding-left:10px;
+    padding-right:10px;
+}
+.fourNumbersBet span, .twoNumbersBet span{
+    width:28px;
+    margin-left: 0px;
+}
+.sixNumbersBet span, .threeNumbersBet span{
+    width:25px;
+    margin-left: 0px;
+}
+.redBet{
+    background-position-y: -158px !important;
+}
+.greenBet{
+    background-position-y: -103px;
+    line-height:2;
+}
+.blackBet{
+    background-position-y: -239px !important;
+    background-size: auto 380px;
+}
+.winBet{
+    border:2px solid #FBDE1E;
+    width:76px !important;
+    height:48px !important;
+}
+#gameBody footer{
+	height : 135px;
+	border-top-width: 4px;
+    -webkit-border-image: url("../img/footer_border_horizontal.png") 40 0 0 0 stretch stretch;
+}
+@media (min-aspect-ratio: 4/3)
+{
+	#gameBody footer{
+		width : 122px;
+		height : 100%;
+		border-left-width: 4px;
+		border-top-width: 0px;
+        -webkit-border-image: url("../img/footer_border_vertical.png") 0 0 0 40 stretch stretch;
+	}
+}
+.buttons_navigation .nav_block {
+    height: auto;
+    width: auto;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px ){
+	.buttons_navigation .nav_block{
+		margin-top : -5px;
+	}	
+}
+.round_btn {
+    height: 110px;
+    width: 110px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px ) {
+    .round_btn {
+        height: 90px;
+        width: 90px;
+    }
+}
+.nav_block > span {
+    font-size: 16px;
+}
+@media (min-aspect-ratio: 4/3) and ( max-height : 560px ) {
+    .nav_block > span {
+        font-size: 14px;
+    }
+}
+@media (min-aspect-ratio: 4/3){
+    .nav_block > span {
+        line-height: 16px;
+    }
+}

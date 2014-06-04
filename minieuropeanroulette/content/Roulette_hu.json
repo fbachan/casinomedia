@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Számla",
+    "backToLobby": "Vissza a lobby-ba",
+    "cancel": "Mégse",
+    "home": "Főoldal",
+    "loading": "Betöltés …",
+    "initializing": "Inicializálás…",
+    "ok": "OK",
+    "payIn": "Befizetés",
+    "reload": "A játék újratöltése",
+    "completeCellPhoneReg": "Mobiltelefon-regisztráció végrehajtása",
+    "keepPlaying": "Játék folytatása",
+    "closeGames": "Minden játék bezárása",
+    "closeGame": "Játék bezárása"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Egyenleg",
+    "id": "Azonosító",
+    "totalBet": "Összes tét"
+  },
+  "aside": {
+    "history": "Történet",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Az Ön tétjei"
+  },
+  "gameButtons": {
+    "spin": "Pörget",
+    "double": "Dupláz",
+    "undo": "Visszavonás",
+    "clearBets": "Tétek törlése",
+    "rebetSpin": "Tét újra&Pörget",
+    "doubleAndSpin": "2x&Pörget",
+    "newBet": "Új tét",
+    "backToTable": "Vissza az asztalhoz"
+  },
+  "rules": {
+    "backToGame": "Vissza a játékba",
+    "rules": "Szabályok",
+    "RGLink": "Felelősségteljes játék oldal",
+    "rMalfunction": "Meghibásodás esetén minden játék érvénytelen.",
+    "rDenominations": "Címletek",
+    "rateOfReturn": "A játékban a pénz visszanyerésének elméleti valószínűsége 91.78%."
+  },
+  "settings": {
+    "settings": "Beállítások",
+    "turboMode": "Turbó Mód",
+    "on": "BE",
+    "off": "KI",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "A játék kis méterben és többablakos módban nem működik. Kérjük, játsszon teljes képernyőn - a folytatáshoz nyomja meg a böngésző ablakban található teljes képernyő gombot.",
+    "wantToRemove": "Szeretné eltávolítani az összes zsetont?",
+    "minStake": "Magasabb tétet kell megtennie, mert a tét minimális összege {0}.",
+    "maxStake": "Nem teheti meg ezt a tétet, mert a tét maximális összege {0}.",
+    "cannotDouble": "Vannak olyan tétek az asztalon, melyek az adott tét-opciókra vonatkozó limit miatt nem duplázhatók meg. A többi tétet megdupláztuk.",
+    "cannot1to18": "Nem tehet egyszerre az 1-18-ra és a 19-36-ra is.",
+    "cannotODDtoEVEN": "Njem tehet egyszerre a PÁROS-ra és a PÁRATLAN-ra is.",
+    "cannotREDtoBLACK": "Njem tehet egyszerre a PIROS-ra és a FEKETE-re is.",
+    "cannotThreeDozens": "Nem tehet tétet egyszerre mindhárom tucata.",
+    "cannotThreeColumns": "Nem tehet tétet egyszerre mindhárom oszlopra.",
+    "cannotAdjColumns": "Nem tehet egyszerre két egymás melletti oszlopra.",
+    "cannotAdjDozens": "Nem tehet egyszerre két egymás melletti tucatra.",
+    "needPlaceBet": "Fel kell tennie egy tétet.",
+    "loginProblem": "Nem sikerült bejelentkezni a szerverre.<br>Kérjük, töltse be újra a játékot.",
+    "knownError": "Valamilyen hiba történt.<br>Hiba: {0}<br>{1}",
+    "serverDown": "Felhívjuk figyelmét, hogy rendszerünk egy részének tervezett karbantartása miatt jelenleg nem tudunk új játékot indítani. Kérjük, rendszeres időközönként nézzen vissza az oldalra és játsszon tovább. A kellemtlenségért szíves elnézését kérjük.",
+    "geoBlocked": "Ez a játék sajnos jelenleg nem érhető el az Ön régiójában tartózkodó játékosok számára. Továbbra is játszhat más játékainkkal, kérjük, látogasson el a lobby-ba és tekintse meg kínálatunkat.",
+    "gameDisabled": "Ez a játék sajnos jelenleg nem elérhető. Továbbra is játszhat más játékainkkal, kérjük, látogasson el a lobby-ba és tekintse meg kínálatunkat.",
+    "notAvailable": "A játék nem elérhető.<br>{0}",
+    "loggedOnOtherMachine": "Megszakadt a bejelentkezés, mivel a felhasználó máshonnan lépett be.",
+    "lowBalance": "Az Ön számlaegyenlege túl alacsony a tét felrakásához.",
+    "lobbyAccountBalanceLimitation": "Jelenleg nem játszhat valódi pénzzel mivel számláján nincs elég fedezet vagy mivel más korlátozások vannak. Fizessen be most számlájára vagy játsszon for fun módban.",
+    "tryingReconnect": "Megszakadt a kapcsolat a szerverrel.<br> Újrakapcsolódás...",
+    "failedRestore": "Megszakadt a kapcsolat a szerverrel. <br>A kapcsolatot nem sikerült helyreállítani.<br>Kérjük, töltse be újra a játékot.",
+    "changeLimits": "Szeretném megváltoztatni a limitkeretemet",
+    "error_40015": "A responsible gaming session lejárt. Folytatja a játékot?",
+    "error_60144": "Ön túllépte a kijelölt napi veszteségét ezért ma már nem játszhat többé. Kérjük folytassa holnap a játékot.",
+    "error_59532": "A választott összeg meghaladja a beállított veszteségi limitet. Egy kaszinójátékba csak {0} vihető.",
+    "error_61869": "Ön nem játszhat valódi pénzes játékokat és nem férhet hozzá a hűségpont-áruházhoz ezen termék esetében. További információkért kérjük, forduljon Ügyfélszolgálatunkhoz.",
+    "error_61870": "Ön véglegesen kizárta magát valamennyi termékünk igénybe vételéből, így <br><br>nem játszhat, nem fizethet be számlájára és nem férhet hozzá számlája oldalaihoz. Amennyiben kérdése lenne, kérjük, forduljon Ügyfélszolgálatunkhoz.",
+    "error_61871": "Ön úgy döntött, ezt a terméket zárolja számláján. Ön ezentúl nem játszhat valódi pénzes játékokat és nem léphet be a b’inside Market-re ezen termék esetében. További információkért, illetve a beállítások módosításához kérjük, látogasson el a \"Szolgáltatás zárolása\" menübe.",
+    "error_61872": "Ennél a terméknél nincs lehetősége rebuy és/vagy add on vásárlására. <br>További információkért kérjük, forduljon Ügyfélszolgálatunkhoz.",
+    "error_61873": "Ön úgy döntött, ezt a terméket zárolja számláján, így nincs lehetősége rebuy és/vagy add on vásárlására. <br>További információkért, illetve a beállítások módosításához kérjük, látogasson el a 'Szolgáltatás zárolása' menübe. Kattintson az 'OK' gombra a továbblépéshez a 'Szolgáltatás zárolása' oldalra.",
+    "error_61874": "Ön zárolta az összes szolgáltatásunkat.  Ezért Önnek nincs rebuy és/vagy add on lehetősége. További információkért kérjük, lépjen kapcsolatba Ügyfélszolgálatunkkal.",
+    "error_61875": "Ön véglegesen kizárta magát valamennyi termékünk igénybe vételéből, így nincs lehetősége rebuy/add on vásárlására. Amennyiben kérdése lenne, kérjük, <br>forduljon Ügyfélszolgálatunkhoz.",
+    "error_61876": "Ön kizárta magát valamennyi termékünk igénybe vételéből.<br><br>Ebben az időszakban Ön nem játszhat, nem fizethet be számlájára és nem férhet hozzá számlája oldalaihoz. Amennyiben kérdése lenne, kérjük, forduljon Ügyfélszolgálatunkhoz.",
+    "error_40387": "A legutóbbi műveletet nem lehetett végrehajtani. A játék most bezárul. Kérjük, nyisd meg ismét a játékot.",
+    "error_64707": "A választott összeggel túllépi a napi limitkeretet, a rendelkezésére álló összeg csak {0}.",
+    "error_64708": "A választott összeggel túllépi a heti limitkeretet, a rendelkezésére álló összeg csak {0}.",
+    "error_64709": "A választott összeggel túllépi a havi limitkeretet, a rendelkezésére álló összeg csak {0}.",
+    "error_64710": "Ön már túllépte a rendelkezésére álló napi limitkeretet.",
+    "error_64711": "Ön már túllépte a rendelkezésére álló heti limitkeretet.",
+    "error_64712": "Ön már túllépte a rendelkezésére álló havi limitkeretet.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "Felhívjuk figyelmét, hogy Ön több mint {0} perce játszik. <br>A legutóbbi bejelentkezése óta elért nyereménye/vesztesége: <span>{1}</span><br>Játék-egyenlege: <span>{2}</span><br> Szeretné folytatni a játékot?",
+    "PR_RCPClosed": "Ön úgy döntött, befejezi a játékot egy másik játékban. Ez a játék most bezárul.",
+    "PR_SessionTimeLimit": "Ön elérte a(z) {0} perces maximális játékidőt. <br/>Ön legutóbbi bejelentkezése óta {1} perce játszik.<br/><br/>Folytathatja a játékot vagy el is hagyhatja a játékot.",
+    "USNJ_GeoLocMsg1": "Sajnáljuk, de technikai okokból nem tudjuk visszaigazolni az Ön tartózkodási helyét. Kérjük, később próbálja meg újra.",
+    "USNJ_GeoLocMsg2": "Sajnáljuk, de nem léphet tovább. Rendszerünk szerint olyan területen tartózkodik, ahonnan nincs lehetőség erre a műveletre. Ennek szabályozási okai vannak <a href='{0}'>További információk</a>",
+    "USNJ_GeoLocMsg3": "Nem tudjuk megerősíteni, hogy Ön New Jersey-ben tartózkodik. Amennyiben megadja nekünk mobiltelefonszámát és regisztrál a helymeghatározási szolgáltatásra, sokkal nagyobb eséllyel fogjuk tudni meghatározni az Ön tartózkodási helyét, és így engedélyezni tudjuk, hogy játszhasson oldalunkon.",
+    "USNJ_SessionTimeLimit": "Ön a mai napon elérte az Ön kérésére beállított napi limitet. Köszönjük a játékot! Kérjük, holnap térjen vissza és játsszon velünk ismét."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

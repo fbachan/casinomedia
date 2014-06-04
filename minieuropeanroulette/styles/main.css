@@ -1,0 +1,7 @@
+@import url("general.css");
+@import url("highres.css")
+only screen
+and (min-width : 500px)
+and ( max-aspect-ratio: 4/3 ),
+(min-width : 1000px)
+and ( min-aspect-ratio: 4/3 );

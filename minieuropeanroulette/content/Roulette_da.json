@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Konto",
+    "backToLobby": "Tilbage til lobby",
+    "cancel": "Afbryd",
+    "home": "Tilbage",
+    "loading": "Indlæser...",
+    "initializing": "Indlæser…",
+    "ok": "OK",
+    "payIn": "Indbetal",
+    "reload": "Genindlæs spil",
+    "completeCellPhoneReg": "Fuldfør registrering af mobiltelefon",
+    "keepPlaying": "Keep Playing",
+    "closeGames": "Close All Games",
+    "closeGame": "Afslut spil"
+  },
+  "lobby": {
+    "playReal": "Spil for sjov",
+    "playForFun": "Spil for rigtige penge"
+  },
+  "menu": {
+    "balance": "Saldo",
+    "id": "ID",
+    "totalBet": "Samlet indsats"
+  },
+  "aside": {
+    "history": "Historik",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Dine spil"
+  },
+  "gameButtons": {
+    "spin": "Spin",
+    "double": "Fordobl",
+    "undo": "Fortryd",
+    "clearBets": "Fjern spil",
+    "rebetSpin": "Sats igen & Spin",
+    "doubleAndSpin": "2x&Spin",
+    "newBet": "Nye spil",
+    "backToTable": "Tilbage til bordet"
+  },
+  "rules": {
+    "backToGame": "Tilbage til spillet",
+    "rules": "Spilleregler",
+    "RGLink": "Ansvarligt spil",
+    "rMalfunction": "Ved fejl annulleres alle udbetalinger",
+    "rDenominations": "Kategorier",
+    "rateOfReturn": "Den teoretiske tilbagebetalingsprocent til spilleren i dette spil er 91.78%."
+  },
+  "settings": {
+    "settings": "Indstillinger",
+    "turboMode": "Turbo Mode",
+    "on": "TIL",
+    "off": "FRA",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "Spillet fungerer ikke i minimeret og flervinduesmodus. Maksimer venligst spillet ved at trykke på fuld skærm-knappen i browser-vinduet for at kunne fortsætte.",
+    "wantToRemove": "Vil du fjerne alle chips?",
+    "minStake": "Du skal satse mere, da minimumindsatsen er på {0}.",
+    "maxStake": "Du kan ikke satse så meget, da den maks. tilladte indsats er på {0}.",
+    "cannotDouble": "Der er spil på bordet som ikke kan fordobles, da dette vil overskride grænsen for dette spil. Vi har fordoblet alle de spil, som kan fordobles.",
+    "cannot1to18": "Du kan ikke spille på 1-18 og 19-36 samtidig.",
+    "cannotODDtoEVEN": "Du kan ikke spille på LIGE eller ULIGE samtidig.",
+    "cannotREDtoBLACK": "Du kan ikke spille på RØD og SORT samtidig.",
+    "cannotThreeDozens": "Du kan ikke spille på alle tre på én gang.",
+    "cannotThreeColumns": "Du kan ikke spille på alle tre kolonner samtidig.",
+    "cannotAdjColumns": "Du kan ikke spille på alle tilstødende kolonner på samme tid.",
+    "cannotAdjDozens": "Du kan ikke spille på alle tilstødende dusin på samme tid.",
+    "needPlaceBet": "Du skal sætte et spil.",
+    "loginProblem": "Der opstod et problem med login til serveren.<br>Indlæs venligst spillet igen.",
+    "knownError": "Der opstod en <br>Fejl: {0}<br>{1}",
+    "serverDown": "Vær opmærksom på at vi ikke kan åbne nye spil i øjeblikket på grund af almindelig vedligeholdelsesarbejde. Tjek igen med jævne mellemrum for at fortsætte med at spille. Vi beklager ulejligheden.",
+    "geoBlocked": "Desværre er dette spil ikke tilgængeligt for spillere i dit land. Du kan stadigvæk spille vores andre spil så besøg lobbyen og se, hvad vi ellers tilbyder.",
+    "gameDisabled": "Desværre er dette spil ikke tilgængeligt i øjeblikket. Du kan stadigvæk spille vores andre spil så besøg lobbyen og se, hvad vi ellers tilbyder.",
+    "notAvailable": "Spillet er ikke tilgængeligt.<br>{0}",
+    "loggedOnOtherMachine": "Din session er blevet afbrudt, da denne bruger er logget ind fra et andet sted.",
+    "lowBalance": "Din saldo er for lav til at sætte dette spil.",
+    "lobbyAccountBalanceLimitation": "I øjeblikket kan du ikke spille for rigtige penge, da du ikke har nok penge på din konto eller har andre begrænsninger. Du kan indbetale nu eller spille for sjov.",
+    "tryingReconnect": "Forbindelse til server er blevet afbrudt.<br>Prøver at forbinde igen...",
+    "failedRestore": "Der er ikke længere forbindelse til serveren.<br>Kunne ikke genskabe forbindelsen.<br>Genindlæs venligst spillet.",
+    "changeLimits": "Jeg vil ændre min grænse.",
+    "error_40015": "Din responsible gaming tidssession er udløbet. Vil du fortsætte?",
+    "error_60144": "Du har overskredet din daglige grænse for tab og kan ikke spille mere i dag. Kom tilbage og spil igen i morgen.",
+    "error_59532": "Det valgte beløb er større end din valgte tabsgrænse. Du kan kun tage {0} med til et casinospil.",
+    "error_61869": "Du må ikke spille for rigtige penge eller besøge Bonus Shoppen via dette produkt. Kontakt venligst vores kundeservice hvis du har spørgsmål.",
+    "error_61870": "Du har udelukket dig selv fra alle produkter for altid.<br><br>Du kan ikke spille, foretage indbetalinger eller have adgang til nogle af kontosiderne. Kontakt venligst vores kundeservice hvis du har spørgsmål.",
+    "error_61871": "Du har valgt at lukke dette produkt på din konto. Du kan ikke spille for rigtige penge eller få adgang til Bonus Shoppen med dette produkt. Besøg venligst vores 'Lukkeservice' for mere information og for at ændre dine indstillinger.",
+    "error_61872": "Du må ikke foretage rebuy og/eller add-ons på dette produkt. Kontakt venligst vores kundeservice for  <br>mere information.",
+    "error_61873": "Du har valgt at udelukke dette produkt fra din konto.<br><br> Du må ikke foretage rebuy og/eller add-ons. Tjek lukkeservice-sektionen for mere information og for at ændre dine indstillinger.",
+    "error_61874": "Du har valgt at udelukke dig selv fra alle vores produkter. Derfor kan du ikke foretage rebuy og/eller add-ons på dette produkt. Kontakt venligst vores kundeservice for mere information.",
+    "error_61875": "Du har udelukket dig selv fra alle produkter for altid. Derfor kan du ikke foretage rebuy og/eller add-ons på dette produkt. Kontakt venligst vores kundeservice for mere information.",
+    "error_61876": "Du har udelukket dig selv fra alle produkter. <br><br> I udelukkelsesperioden kan du ikke foretage indbetalinger eller have adgang til nogle af kontosiderne. Kontakt venligst vores kundeservice, hvis du har spørgsmål.",
+    "error_40387": "Den sidste handling kunne ikke udføres. Spillet bliver nu lukket. Åbn spillet igen.",
+    "error_64707": "Du har valgt et beløb, der overstiger dit månedlige forbrugsgrænse - der er kun {0} tilbage.",
+    "error_64708": "Du har valgt et beløb, der overstiger dit ugentlige forbrugsgrænse - der er kun {0} tilbage.",
+    "error_64709": "Du har valgt et beløb, der overstiger dit månedlige forbrugsgrænse - der er kun {0} tilbage.",
+    "error_64710": "Ups, du har allerede nået din daglige forbrugsgrænse.",
+    "error_64711": "Ups, du har allerede nået din ugentlige forbrugsgrænse.",
+    "error_64712": "Ups, du har allerede nået din månedlige forbrugsgrænse.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "We wanted to let you know that you've been playing for over {0} minutes.<br>Your winnings/losses for your gaming session: <span>{1}</span><br>Your In-play balance: <span>{2}</span><br> Do you want to continue playing?",
+    "PR_RCPClosed": "You have chosen to end your gaming session from another game. This game will now close.",
+    "PR_SessionTimeLimit": "You have committed to a maximum play time of {0} minutes.<br/>You have been playing for {1} minutes in this session.<br/><br/>You may continue to play or choose to leave the game if you so wish.",
+    "USNJ_GeoLocMsg1": "Af tekniske årsager kunne vi desværre ikke bekræfte dit område. Prøv venligst igen senere.",
+    "USNJ_GeoLocMsg2": "Vi kan desværre ikke tillade dig at fortsætte. Vores system indikerer, at du er i et område, der ikke tillader denne operation. Dette skyldes lovgivningsmæssige restriktioner <a href='{0}'>Mere info </a>",
+    "USNJ_GeoLocMsg3": "Vi kan ikke bekræfte at din fysiske placering er i New Jersey. Ved at give os dit mobil-telefonnummer og tilmelding til placeringstjenester, er det langt mere sandsynligt, at vi kan finde dig og give dig mulighed for at spille på vores side.",
+    "USNJ_SessionTimeLimit": "Du har bedt os om at sætte en daglig grænse, og den grænse har du nået i dag. Tak for at du spiller hos os. Du er velkommen til at komme tilbage og spille igen i morgen."
+  },
+  "customization": {
+    "digitGroupingSymbol": ".",
+    "decimalSymbol": ","
+  }
+}

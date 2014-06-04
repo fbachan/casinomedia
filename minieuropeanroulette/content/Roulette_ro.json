@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Cont",
+    "backToLobby": "Înapoi în lobby",
+    "cancel": "Anulaţi",
+    "home": "Home",
+    "loading": "Încărcare...",
+    "initializing": "Iniţializare…",
+    "ok": "OK",
+    "payIn": "Depozit",
+    "reload": "Reîncărcare joc",
+    "completeCellPhoneReg": "Încheiați înregistrarea pe mobil",
+    "keepPlaying": "Keep Playing",
+    "closeGames": "Close All Games",
+    "closeGame": "Închidere joc"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Sold",
+    "id": "ID",
+    "totalBet": "Pariu total"
+  },
+  "aside": {
+    "history": "Istoric",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Pariurile"
+  },
+  "gameButtons": {
+    "spin": "Rotire",
+    "double": "Dublaţi",
+    "undo": "Înapoi",
+    "clearBets": "Ştergeţi pariurile",
+    "rebetSpin": "Pariu&Rotire",
+    "doubleAndSpin": "2xRotire",
+    "newBet": "Pariu nou",
+    "backToTable": "Înapoi la masă"
+  },
+  "rules": {
+    "backToGame": "Înapoi la joc",
+    "rules": "Regulament",
+    "RGLink": "Site de joc responsabil",
+    "rMalfunction": "Erorile de funcțiune duc la invalidarea tuturor plăților.",
+    "rDenominations": "Denominări",
+    "rateOfReturn": "Procentul teoretic de câștig pentru jucător în cadrul acestui joc este de 91.78%."
+  },
+  "settings": {
+    "settings": "Setări",
+    "turboMode": "Viteza turbo",
+    "on": "ON",
+    "off": "OFF",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "Jocul nu funcționează în format minimizat și cu ferestre multiple. Vă rugăm să măriţi jocul, apăsând pe căsuţa de maximizare a ecranului din fereastra browser-ului pentru a continua.",
+    "wantToRemove": "Doriţi să retrageţi toate jetoanele?",
+    "minStake": "Trebuie să plasaţi un pariu mai mare deoarece miza minimă este setată la {0}.",
+    "maxStake": "Nu puteţi plasa acest pariu deoarece miza maximă este de {0}.",
+    "cannotDouble": "Aveţi pe masă câteva pariuri care nu pot fi dublate, din cauza limitei pentru opţiunea respectivă de pariere. Am dublat toate pariurile posibile.",
+    "cannot1to18": "Nu puteţi paria pe 1-18 şi 19-36 simultan.",
+    "cannotODDtoEVEN": "Nu puteţi paria pe PAR şi IMPAR simultan.",
+    "cannotREDtoBLACK": "Nu puteţi paria pe ROŞU şi NEGRU simultan.",
+    "cannotThreeDozens": "Nu puteţi paria pe toate cele trei duzine simultan.",
+    "cannotThreeColumns": "Nu puteţi paria pe toate cele trei coloane simultan.",
+    "cannotAdjColumns": "Nu puteţi paria simultan pe toate coloanele adiacente.",
+    "cannotAdjDozens": "Nu puteţi paria simultan pe toate duzinele adiacente.",
+    "needPlaceBet": "Trebuie să plasaţi un pariu.",
+    "loginProblem": "A survenit o problemă în procesul de autentificare în server.<br>Vă rugăm, reîncărcaţi jocul.",
+    "knownError": "A survenit o problemă.<br>Eroare: {0}<br>{1}",
+    "serverDown": "Notă: pe motivul unor lucrări de întreţinere de rutină în sistemul nostru, nu putem lansa niciun nou joc momentan. Vă rugăm să reveniţi la intervale regulate pentru a continua să jucaţi. Ne cerem scuze pentru orice inconvenienţă.",
+    "geoBlocked": "Din păcate, acest joc nu este disponibil momentan pentru jucătorii din regiunea dvs. Aveţi, însă, posibilitatea de a participa la celelalte jocuri de pe pagina noastră. Aşa că, mergeţi în lobby şi bucuraţi-vă de întreaga noastră ofertă.",
+    "gameDisabled": "Din păcate, jocul nu este disponibil momentan. Aveţi, însă, posibilitatea de a participa la celelalte jocuri de pe pagina noastră. Aşa că, mergeţi în lobby şi bucuraţi-vă de întreaga noastră ofertă.",
+    "notAvailable": "Jocul nu este disponibil.<br>{0}",
+    "loggedOnOtherMachine": "Sesiunea dvs. a fost întreruptă deoarece v-aţi autentificat cu aceste date din alt loc.",
+    "lowBalance": "Soldul dvs. este prea mic pentru a plasa pariul.",
+    "lobbyAccountBalanceLimitation": "Momentan nu puteţi juca pe bani reali, deoarece nu aveţi suficient credit în contul dvs. sau din cauza altor restricţii. Puteţi depozita bani în cont sau juca pe bani virtuali.",
+    "tryingReconnect": "Conexiunea la server a căzut. <br> În proces de reconectare...",
+    "failedRestore": "Conexiunea la server a eșuat .<br>Conexiunea nu a putut fi restabilită.<br>Vă rugăm să reîncărcați jocul.",
+    "changeLimits": "Doresc să îmi modific limitele",
+    "error_40015": "Timpul pentru sesiunea dvs. de joc responsabil a expirat. Doriţi să continuaţi?",
+    "error_60144": "Aţi depăşit limita zilnică de pierderi. Nu mai puteţi juca astăzi. Vă rugăm, reveniţi mâine pentru a juca.",
+    "error_59532": "Suma selectată de dvs. depăşeşte limita pentru pierderi setată. Puteţi lua doar suma de {0} la un joc de cazinou.",
+    "error_61869": "Nu puteţi participa la jocuri pe bani reali sau accesa magazinul nostru online prin intermediul acestui produs. Pentru informaţii suplimentare, vă rugăm, contactaţi serviciul clienţi.",
+    "error_61870": "V-aţi exclus permanent de la toate produsele noastre.<br><br>Din acest motiv, nu puteţi juca, face depozite sau accesa contul dvs. Dacă aveţi întrebări, vă rugăm, contactaţi serviciul clienţi.",
+    "error_61871": "Aţi decis să închideţi acest produs din contul dvs. Asta înseamnă că, nu veţi mai putea juca pe bani reali la acest produs şi nu veţi mai putea accesa pagina b’inside Market din cadrul acestui produs. Vă rugăm, vizitaţi secţiunea \"Închidere serviciu\" sau modificaţi setările.",
+    "error_61872": "Nu puteţi face rebuy şi/sau add-on la acest produs. Vă rugăm, contactaţi serviciul clienţi pentru <br>informaţii suplimentare.",
+    "error_61873": "Aţi ales să închideţi acest produs în contul dvs. Din acest motiv, nu puteţi face rebuy şi/sau add-on. <br>Pentru informaţii suplimentare, vă rugăm, vizitaţi \"Serviciul clienţi\" şi modificaţi setările. Daţi click pe OK pentru a accesa pagina \"Închidere servicii\".",
+    "error_61874": "V-aţi exclus de la toate produsele noastre. Din acest motiv, nu puteţi face<br> rebuy/add-on. Dacă aveţi întrebări, vă rugăm, contactaţi serviciul clienţi.",
+    "error_61875": "V-aţi exclus permanent de la toate produsele. Din acest motiv, nu puteţi face rebuy/add-on. Vă rugăm, <br>contactaţi serviciul clienţi dacă aveţi întrebări.",
+    "error_61876": "V-aţi exclus de la toate produsele noastre.<br><br>În această perioadă nu puteţi juca, nu puteţi face depozite şi nu vă puteţi accesa contul. Dacă aveţi întrebări, vă rugăm, contactaţi serviciul clienţi.",
+    "error_40387": "Ultima acţiune nu a putut fi efectuată. Jocul se va închide acum. Vă rugăm să deschideţi din nou jocul.",
+    "error_64707": "Ați selectat o sumă de bani, care depășește limita zilnică de cheltuială și vă rămân doar {0}.",
+    "error_64708": "Ați selectat o sumă de bani, care depășește limita săptămânală de cheltuială și vă rămân doar {0}.",
+    "error_64709": "Ați selectat o sumă de bani, care depășește limita lunară de cheltuială și vă rămân doar {0}.",
+    "error_64710": "Oops, ați depășit deja limita zilnică de cheltuială.",
+    "error_64711": "Oops, ați depășit deja limita săptămânală de cheltuială.",
+    "error_64712": "Oops, ați depășit deja limita lunară de cheltuială.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "We wanted to let you know that you've been playing for over {0} minutes.<br>Your winnings/losses for your gaming session: <span>{1}</span><br>Your In-play balance: <span>{2}</span><br> Do you want to continue playing?",
+    "PR_RCPClosed": "You have chosen to end your gaming session from another game. This game will now close.",
+    "PR_SessionTimeLimit": "You have committed to a maximum play time of {0} minutes.<br/>You have been playing for {1} minutes in this session.<br/><br/>You may continue to play or choose to leave the game if you so wish.",
+    "USNJ_GeoLocMsg1": "Din păcate, nu am putut valida locația dvs. din motive tehnice. Vă rugăm să încercați mai târziu.",
+    "USNJ_GeoLocMsg2": "Din păcate, nu vă putem permite să continuați. Sistemul nostru indică faptul că, vă aflați într-o regiune care nu permite această operațiune, datorită reglementărilor restrictive: <a href='{0}'>Aflați mai multe</a>.",
+    "USNJ_GeoLocMsg3": "Nu putem confirma faptul că locația dvs. fizică este în New Jersey. Oferindu-ne numărul dvs. de mobil și înregistrându-vă la serviciile locale, e mult mai probabil că vă vom putea localiza cu succes și vă vom permite să jucați pe site-ul nostru.",
+    "USNJ_SessionTimeLimit": "Ne-ați rugat să vă fixăm o limită zilnică de timp, pe care astăzi deja ați epuizat-o. Vă mulțumim pentru participarea dvs. la joc. Veți putea reveni și juca din nou mâine."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

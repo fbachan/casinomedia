@@ -1,0 +1,104 @@
+.COM {
+    background: #000000;
+}
+.COM #menuHome{
+    background: -moz-linear-gradient(top,  rgba(50,50,50,1) 0%, rgba(68,68,68,1) 27%, rgba(53,53,53,1) 100%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(50,50,50,1)), color-stop(50%,rgba(68,68,68,1)), color-stop(50%,rgba(53,53,53,1)), color-stop(50%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top,  rgba(50,50,50,1) 0%,rgba(68,68,68,1) 50%, rgba(53,53,53,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top,  rgba(50,50,50,1) 0%,rgba(68,68,68,1) 27%,rgba(53,53,53,1) 100%,rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(50,50,50,1) 0%,rgba(68,68,68,1) 27%,rgba(53,53,53,1) 100%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(top,  rgba(50,50,50,1) 0%,rgba(68,68,68,1) 27%,rgba(53,53,53,1) 100%,rgba(0,0,0,1) 100%);
+    border-color: #585858;
+}
+.COM #menuHome.selected {
+    border-color: #ffffff;
+    text-shadow: 1px 0px #ffffff;
+}
+.COM #menuHome.disabled{
+    color: #666565 !important;
+    border-color: #585858 !important;
+    text-shadow: none !important;
+    cursor:default;
+}
+.COM #logo {
+    background: url("../../img/brands/COM/COM_menu_logo.png") no-repeat center;
+    background-size: 65%;
+    padding-top: 2px;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .COM #logo {
+        background-size: 55%;
+        bottom: 0;
+        height: 10%;
+        }
+}
+.COM #reBuy, .COM #settings, .COM #help{
+    background: url("../../img/brands/COM/COM_menu_buttons.png") no-repeat;
+    background-size: auto 310%;
+}
+.COM #reBuy{
+    background-position-x: 61%;
+    width:30px;
+}
+.COM #settings {
+    background-position-x: 86%;
+}
+.COM #help{
+    background-position-x: 100%;
+}
+.COM #reBuy.selected, .COM #settings.selected, .COM #help.selected{
+    background-position-y: 52%;
+}
+.COM #reBuy.disabled, .COM #settings.disabled, .COM #help.disabled {
+    background-position-y: 103.5%;
+}
+.COM section{
+    background: #222222;
+    color: #999999;
+    border-color:#686564;
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .COM header ul{
+        background: -moz-linear-gradient(left, #0e0d0c 0%, #1c1b1a 40%, #121110 75%, #070706 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0e0d0c), color-stop(40%,#1c1b1a), color-stop(75%,#121110), color-stop(100%,#070706));
+        background: -webkit-linear-gradient(left, #0e0d0c 0%,#1c1b1a 40%,#121110 75%,#070706 100%);
+        background: -o-linear-gradient(left, #0e0d0c 0%,#1c1b1a 40%,#121110 75%,#070706 100%);
+        background: -ms-linear-gradient(left, #0e0d0c 0%,#1c1b1a 40%,#121110 75%,#070706 100%);
+        background: linear-gradient(to right, #0e0d0c 0%,#1c1b1a 40%,#121110 75%,#070706 100%);
+    }
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .COM div.game_info_landscape:before,
+    .COM header ul:before,
+    .COM header ul li:after {
+        background: #0e0d0c;
+        background: -moz-linear-gradient(left, #0e0d0c 0%, #5e5e5d 40%, #0c0b0a 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0e0d0c), color-stop(30%,#5e5e5d), color-stop(60%,#5e5e5d), color-stop(100%,#0c0b0a));
+        background: -webkit-linear-gradient(left, #0e0d0c 0%,#5e5e5d 50%,#0c0b0a 100%);
+        background: -o-linear-gradient(left, #0e0d0c 0%,#5e5e5d 40%,#0c0b0a 100%);
+        background: -ms-linear-gradient(left, #0e0d0c 0%,#5e5e5d 40%,#0c0b0a 100%);
+        background: linear-gradient(to right, #0e0d0c 0%,#5e5e5d 40%,#0c0b0a 100%);
+    }
+}
+@media (min-aspect-ratio: 4/3)
+{
+    .COM div.game_info_landscape {
+        color: #999999;
+    }
+}
+@media only screen and (min-width : 500px) and (max-aspect-ratio: 4/3)
+{
+    .COM #logo{
+        background-size: 40%;
+    }
+}
+@media only screen and (min-width : 1000px) and (min-aspect-ratio: 4/3)
+{
+    .COM #logo{
+        background-size: 100%;
+        width: 90px;
+    }
+}

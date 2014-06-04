@@ -1,0 +1,184 @@
+<p>
+    W ruletce europejskiej (European Roulette) gracz próbuje zgadnąć, na
+    którym z numerów zatrzyma się kulka krążąca po kole ruletki.
+</p>
+<p>
+    Wersja na iPhone/Android'a wspiera zarówno widok pionowy jak i poziomy,
+    oraz umożliwia przybliżanie widoku stołu.
+</p>
+<p>
+    Aby zapewnić optymalny dostęp do gry, zalecamy umieszczenie ikony gry na
+    pulpicie telefonu.  Podczas gry, dotknij pola "+" w dolnym menu
+    nawigacyjnym i wybierz opcję "Add to Home Screen".
+</p>
+
+<h3>Zasady gry</h3>
+
+<p>
+    Ruletka składa się z pola gry (Tableau), na które można stawiać żetony
+    oraz z koła ruletki. Numery są na
+    zmianę czarne i czerwone, zero jest natomiast z zieloną podkładką.
+</p>
+<p>
+    Istnieje możliwość obstawiania numerów pojedynczych, dwóch dowolnych
+    przylegających do siebie numerów lub grupy numerów (zakłady wewnętrzne -
+    Inside Bets), względnie prostych lub wielokrotnych zakładów jak
+    czerwone/nieparzyste lub tym podobne (zakłady zewnętrzne - Outside
+    Bets).
+</p>
+
+<h3>Instrukcja</h3>
+
+<div class="help_bet"></div>
+
+<dl>
+    <dt>Wnoszenie zakładów</dt>
+    <dd>
+        Wybierz wartość żetonów i umieść żetony na planszy dotykając
+        odpowiednich pól. Pojawi się okienko, w którym otrzymasz informację o
+        postawionych żetonach oraz o możliwych wygranych.
+    </dd>
+    <dt>Usuwanie żetonów</dt>
+    <dd>
+        Kliknij na polu "Cofnij" aby usunąć ostatni zakład.  Kliknij na polu
+        "Usuń", aby usunąć wszystkie żetony.
+    </dd>
+    <dt>Zoom</dt>
+    <dd>
+        Obróć telefon do położenia poziomego, aby przybliżyć widok stołu. 
+    </dd>
+    <dt>Start</dt>
+    <dd>
+        Kliknij na polu "Zakręć" aby zakręcić kołem.
+    </dd>
+</dl>
+
+<div class="help_draw"></div>
+
+<p>
+    Po zatrzymaniu koła ruletki, zobaczysz powiększenie pola, na którym
+    zatrzymała się kula.
+</p>
+<p>
+    Wygrana oraz wypłata zostaną pokazane w odpowiednich polach.
+</p>
+
+<p>
+    Dotykając pola "Ponów i zakręć" możesz ponownie obstawić te same pola, bez
+    powracania do widoku stołu.
+</p>
+<p>
+    Dotykając pola "Powrót do stołu" możesz powrócić do widoku stołu. Na stole pozostają
+    żetony z poprzedniej rundy. Aby je usunąć, dotknij pola "Usuń" (Usuń
+    wszystkie).
+</p>
+<p>
+    Wartości:<span id="rDenominations"></span>
+</p>
+<p>
+    Teoretyczna stopa zwrotu w tej grze wynosi<span id="RTPValue"></span>
+</p>
+<p>
+    Błąd w działaniu anuluje wszystkie wyniki.
+</p>
+<p>
+    <a id="RGLink" href="">Strona Responsible Gaming.</a>
+</p>
+<table>
+    <caption>Tabela wypłat</caption>
+    <thead>
+        <tr>
+            <td></td>
+            <td>Zakład</td>
+            <td>Wypłata</td>
+            <td class="rulesDS">Min Bet</td>
+            <td class="rulesDS">Max Bet</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="6" class="verticalHead"><div class="numbers">Numbers</div></td>
+            <td>Plein</td>
+            <td class="odds">35 - 1</td>
+            <td class="rulesDS straightMin"></td>
+            <td class="rulesDS straightMax"></td>
+        </tr>
+        <tr>
+            <td>Cheval</td>
+            <td class="odds">17 - 1</td>
+            <td class="rulesDS splitMin"></td>
+            <td class="rulesDS splitMax"></td>
+        </tr>
+        <tr>
+            <td>Transversale Plein</td>
+            <td class="odds">11 - 1</td>
+            <td class="rulesDS streetMin"></td>
+            <td class="rulesDS streetMax"></td>
+        </tr>
+        <tr>
+            <td>Carre</td>
+            <td class="odds">8 - 1</td>
+            <td class="rulesDS cornerMin"></td>
+            <td class="rulesDS cornerMax"></td>
+        </tr>
+        <tr>
+            <td>Sześć numerów</td>
+            <td class="odds">5 - 1</td>
+            <td class="rulesDS lineMin"></td>
+            <td class="rulesDS lineMax"></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td rowspan="8" class="verticalHead"><div class="chance">Chance</div></td>
+            <td>Kolumny</td>
+            <td class="odds">2 - 1</td>
+            <td class="rulesDS columnMin"></td>
+            <td class="rulesDS columnMax"></td>
+        </tr>
+        <tr>
+            <td>Tuziny</td>
+            <td class="odds">2 - 1</td>
+            <td class="rulesDS dozenMin"></td>
+            <td class="rulesDS dozenMax"></td>
+        </tr>
+        <tr>
+            <td>Sąsiedniej kolumnie</td>
+            <td class="odds">0.5 - 1</td>
+            <td class="rulesDS adjColumnMin"></td>
+            <td class="rulesDS adjColumnMax"></td>
+        </tr>
+        <tr>
+            <td>Przylega Tuzin</td>
+            <td class="odds">0.5 - 1</td>
+            <td class="rulesDS adjDozenMin"></td>
+            <td class="rulesDS adjDozenMax"></td>
+        </tr>
+        <tr>
+            <td>Manque <span class='nowrap'>1 - 18</span></td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS lowNumbersMin"></td>
+            <td class="rulesDS lowNumbersMax"></td>
+        </tr>
+        <tr>
+            <td>Passe <span class='nowrap'>19 - 36</span></td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS highNumbersMin"></td>
+            <td class="rulesDS highNumbersMax"></td>
+        </tr>
+        <tr>
+            <td>Czerwone/czarne</td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS redBlackMin"></td>
+            <td class="rulesDS redBlackMax"></td>
+        </tr>
+        <tr>
+            <td>Parzyste/nieparzyste</td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS evenOddMin"></td>
+            <td class="rulesDS evenOddMax"></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- VERSION_INFO -->

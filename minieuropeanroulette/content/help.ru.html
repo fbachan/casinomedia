@@ -1,0 +1,187 @@
+<p>
+    В Европейской рулетке задача игрока угадать номер ячейки, в которую
+    попадет шарик.
+</p>
+<p>
+    Версия игры для iPhone / Android поддерживает как вертикальный, так и
+    горизонтальный режим отображения, а также функцию увеличения для удобства
+    в использовании.
+</p>
+<p>
+    Разместите ярлык игры на главном экране вашего iPhone, для того чтобы ее
+    было проще и быстрее открывать. Находясь на игровом экране, нажмите кнопку
+    "+" в нижней навигационной панели, а затем выберите "Add to Home Screen".
+</p>
+
+<h3>Правила</h3>
+
+<p>
+    Колесо рулетки пронумеровано от 1 до 36, включая "0". Номера имеют
+    попеременно то красный, то черный цвет, а "0" - зеленый.
+</p>
+<p>
+    Колесо рулетки разделено на различные сектора - для отдельных и групповых
+    ставок. Ставки, которые размещаются на отдельных или смежных номерах или
+    на небольших группах номеров, называются Inside Bets ("внутренние
+    ставки"), а ставки, закрывающие группы от 12 до 18 номеров (например,
+    красное, нечетное и т.д.) известны как Outside Bets ("внешние ставки").
+</p>
+<h3>Как играть</h3>
+
+<div class="help_bet"></div>
+
+<dl>
+    <dt>Размещение ставок</dt>
+    <dd>
+        Выберите номинал фишки и разместите ее на игровом столе, щелкнув в
+        соответствующей области стола. Во всплывающем окне будет указана сумма
+        фишек, поставленная в соответствующем поле, а также коэффициент
+        выплаты.
+    </dd>
+    <dt>Удаление фишек</dt>
+    <dd>
+        Нажмите кнопку "Отмена", чтобы удалить последнюю размещенную на столе
+        фишку. Для того чтобы удалить все фишки, нажмите кнопку "Убрать ставки".
+    </dd>
+    <dt>Масштабирование</dt>
+    <dd>
+        Поверните устройство в горизонтальное положение, чтобы увеличить
+        стол.
+    </dd>
+    <dt>Пуск</dt>
+    <dd>
+        Щелкните "Вращать", чтобы запустить вращение колеса.
+    </dd>
+</dl>
+
+<div class="help_draw"></div>
+
+<p>
+    Когда шарик остановится, будет показан номер ячейки в увеличенном виде, в
+    котором он остановился, а также номера двух соседних ячеек.
+</p>
+<p>
+    Сумма выигрыша и сумма выплаты показываются в соответствующих полях.
+</p>
+
+<p>
+    Щелкните кнопку "Повтор&Спин", чтобы повторить вращение с той же ставкой, не
+    возвращаясь к экрану с изображением стола.
+</p>
+<p>
+    Щелкните кнопку "К столу", чтобы вернуться к экрану с изображением
+    стола. На столе отображаются фишки, оставшиеся с предыдущей
+    ставки. Нажмите кнопку "Убрать ставки", чтобы удалить со стола
+    все фишки.
+</p>
+<p>
+    Номиналы:<span id="rDenominations"></span>
+</p>
+<p>
+    Теоретический процент возврата игрокам в этой игре составляет<span id="RTPValue"></span>
+</p>
+
+<p>
+    В случае аварийных сбоев все выплаты аннулируются.
+</p>
+<p>
+    <a id="RGLink" href="">Сайт ответственной игры.</a>
+</p>
+<table border='1'>
+    <caption>Выигрыши</caption>
+    <thead>
+        <tr>
+            <td></td>
+            <td>Тип ставки</td>
+            <td>Коэффициенты</td>
+            <td class="rulesDS">Min Bet</td>
+            <td class="rulesDS">Max Bet</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="6" class="verticalHead"><div class="numbers">Numbers</div></td>
+            <td>Straight Up</td>
+            <td class="odds">35 - 1</td>
+            <td class="rulesDS straightMin"></td>
+            <td class="rulesDS straightMax"></td>
+        </tr>
+        <tr>
+            <td>Split</td>
+            <td class="odds">17 - 1</td>
+            <td class="rulesDS splitMin"></td>
+            <td class="rulesDS splitMax"></td>
+        </tr>
+        <tr>
+            <td>Street</td>
+            <td class="odds">11 - 1</td>
+            <td class="rulesDS streetMin"></td>
+            <td class="rulesDS streetMax"></td>
+        </tr>
+        <tr>
+            <td>Corner</td>
+            <td class="odds">8 - 1</td>
+            <td class="rulesDS cornerMin"></td>
+            <td class="rulesDS cornerMax"></td>
+        </tr>
+        <tr>
+            <td>Line</td>
+            <td class="odds">5 - 1</td>
+            <td class="rulesDS lineMin"></td>
+            <td class="rulesDS lineMax"></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td rowspan="8" class="verticalHead"><div class="chance">Chance</div></td>
+            <td>Column</td>
+            <td class="odds">2 - 1</td>
+            <td class="rulesDS columnMin"></td>
+            <td class="rulesDS columnMax"></td>
+        </tr>
+        <tr>
+            <td>Dozen</td>
+            <td class="odds">2 - 1</td>
+            <td class="rulesDS dozenMin"></td>
+            <td class="rulesDS dozenMax"></td>
+        </tr>
+        <tr>
+            <td>Adjacent Column</td>
+            <td class="odds">0.5 - 1</td>
+            <td class="rulesDS adjColumnMin"></td>
+            <td class="rulesDS adjColumnMax"></td>
+        </tr>
+        <tr>
+            <td>Adjacent Dozen</td>
+            <td class="odds">0.5 - 1</td>
+            <td class="rulesDS adjDozenMin"></td>
+            <td class="rulesDS adjDozenMax"></td>
+        </tr>
+        <tr>
+            <td>Low Numbers <span class='nowrap'>1 - 18</span></td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS lowNumbersMin"></td>
+            <td class="rulesDS lowNumbersMax"></td>
+        </tr>
+        <tr>
+            <td>High Numbers <span class='nowrap'>19 - 36</span></td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS highNumbersMin"></td>
+            <td class="rulesDS highNumbersMax"></td>
+        </tr>
+        <tr>
+            <td>Red or Black</td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS redBlackMin"></td>
+            <td class="rulesDS redBlackMax"></td>
+        </tr>
+        <tr>
+            <td>Even or Odd</td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS evenOddMin"></td>
+            <td class="rulesDS evenOddMax"></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- VERSION_INFO -->

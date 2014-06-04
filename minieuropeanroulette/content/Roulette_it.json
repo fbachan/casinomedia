@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Conto",
+    "backToLobby": "Torna alla lobby",
+    "cancel": "Annulla",
+    "home": "Home",
+    "loading": "Caricamento in corso…",
+    "initializing": "Inizializzazione in corso…",
+    "ok": "OK",
+    "payIn": "Versa",
+    "reload": "Ricarica il gioco",
+    "completeCellPhoneReg": "Completa la registrazione su cellulare",
+    "keepPlaying": "Keep Playing",
+    "closeGames": "Close All Games",
+    "closeGame": "Chiudi gioco"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Saldo",
+    "id": "ID",
+    "totalBet": "Puntata totale"
+  },
+  "aside": {
+    "history": "Cronologia",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Puntate"
+  },
+  "gameButtons": {
+    "spin": "Gira",
+    "double": "Raddoppia",
+    "undo": "Annulla",
+    "clearBets": "Cancella puntate",
+    "rebetSpin": "Ripeti puntata e gira",
+    "doubleAndSpin": "Raddoppia e gira",
+    "newBet": "Nuova puntata",
+    "backToTable": "Torna al tavolo"
+  },
+  "rules": {
+    "backToGame": "Torna al gioco",
+    "rules": "Regole",
+    "RGLink": "Sito Gioco responsabile",
+    "rMalfunction": "In caso di malfunzionamenti tutte le vincite sono nulle.",
+    "rDenominations": "Denominazioni",
+    "rateOfReturn": "Il ritorno teorico al giocatore per questo gioco è del 91.78%."
+  },
+  "settings": {
+    "settings": "Impostazioni",
+    "turboMode": "Modalità turbo",
+    "on": "ON",
+    "off": "OFF",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "Il gioco non funziona con la finestra in modalità ridotta o multipla. Per proseguire, ingrandisci la finestra cliccando sul pulsante schermo intero nella finestra del browser.",
+    "wantToRemove": "Desideri rimuovere tutte le chip?",
+    "minStake": "È necessario piazzare una puntata maggiore perché la puntata minima è di {0}.",
+    "maxStake": "Non è possibile piazzare questa puntata perché la puntata massima è di {0}.",
+    "cannotDouble": "Ci sono alcune puntate sul tavolo che non possono essere raddoppiate a causa del limite previsto per determinate opzioni di puntata. Sono state raddoppiate tutte le puntate possibili.",
+    "cannot1to18": "Non è possibile puntare contemporaneamente su 1-18 e 19-36.",
+    "cannotODDtoEVEN": "Non è possibile puntare contemporaneamente su PARI e DISPARI.",
+    "cannotREDtoBLACK": "Non è possibile puntare contemporaneamente su ROSSO e NERO.",
+    "cannotThreeDozens": "Non è possibile puntare contemporaneamente su tutte e tre le dozzine.",
+    "cannotThreeColumns": "Non è possibile puntare contemporaneamente su tutte e tre le colonne.",
+    "cannotAdjColumns": "Non puoi puntare su tutte le colonne adiacenti contemporaneamente.",
+    "cannotAdjDozens": "Non puoi puntare su tutte le dozzine adiacenti contemporaneamente.",
+    "needPlaceBet": "È necessario piazzare una puntata.",
+    "loginProblem": "Si è verificato un problema di login al server.<br>Ricarica il gioco.",
+    "knownError": "Si è verificato un problema.<br>Errore: {0}<br>{1}",
+    "serverDown": "A causa di lavori di manutenzione ordinaria di parte del nostro sistema, al momento non ci è possibile lanciare nuovi giochi. Controlla regolarmente la pagina per continuare a giocare. Ci scusiamo per eventuali disagi.",
+    "geoBlocked": "Siamo spiacenti, il gioco non è al momento disponibile per i giocatori residenti nel tuo paese. Puoi comunque accedere agli altri giochi, quindi visita la lobby e dai uno sguardo alla nostra offerta.",
+    "gameDisabled": "Siamo spiacenti, il gioco non è al momento disponibile. Puoi comunque accedere agli altri giochi, quindi visita la lobby e dai uno sguardo alla nostra offerta.",
+    "notAvailable": "Il gioco non è disponibile.<br>{0}",
+    "loggedOnOtherMachine": "La sessione è stata interrotta perché l'utente ha effettuato un altro login.",
+    "lowBalance": "Non hai saldo sufficiente nel conto per piazzare questa puntata.",
+    "lobbyAccountBalanceLimitation": "Al momento non puoi giocare con denaro vero a causa di denaro insufficiente nel conto o di altre limitazioni. Puoi effettuare un versamento ora oppure giocare con denaro virtuale.",
+    "tryingReconnect": "La connessione al server è stata interrotta.<br>Tentativo di riconnessione in corso…",
+    "failedRestore": "La connessione al server si è interrotta.<br>Tentativo di riconnessione fallito.<br>Ricarica il gioco.",
+    "changeLimits": "Desidero modificare i miei limiti di versamento.",
+    "error_40015": "Il tempo della tua sessione di gioco responsabile è scaduto. Desideri continuare?",
+    "error_60144": "Hai superato il tuo limite di perdite giornaliero e per oggi non ti è più consentito giocare. Torna a giocare domani.",
+    "error_59532": "L'importo selezionato è superiore al limite di perdita da te impostato. A un gioco del casinò puoi portare soltanto {0}.",
+    "error_61869": "Non ti è consentito giocare con denaro vero o accedere al Market da questo prodotto. Per maggiori informazioni, contatta il Servizio clienti.",
+    "error_61870": "Ti sei autosospeso definitivamente da tutti i nostri prodotti.<br><br>Non puoi giocare, effettuare versamenti né accedere alle pagine del conto. Per eventuali domande, contatta il Servizio clienti.",
+    "error_61871": "Hai deciso di chiudere questo prodotto sul tuo conto. Non puoi beneficiare dei giochi con denaro vero o accedere al Market di b’inside su questo prodotto. Per avere maggiori informazioni o per apportare eventuali modifiche alle impostazioni, consulta la sezione 'Chiusura di servizi'.",
+    "error_61872": "Non ti è consentito effettuare rebuy e/o add-on per questo prodotto. Per maggiori informazioni, contatta il Servizio clienti.",
+    "error_61873": "Hai scelto di chiudere questo prodotto sul tuo conto. Non ti è consentito effettuare rebuy e/o add-on. <br>Per maggiori informazioni o per modificare le impostazioni, consulta la sezione Chiusura di servizi. Clicca su OK per andare alla pagina Chiusura di servizi.",
+    "error_61874": "Ti sei autosospeso da tutti i nostri prodotti. Non ti è pertanto consentito effettuare rebuy e/o add-on. Per eventuali domande, contatta il Servizio clienti.",
+    "error_61875": "Ti sei autosospeso definitivamente da tutti i nostri prodotti. Non ti è pertanto consentito effettuare rebuy e/o add-on. Per eventuali domande, contatta il Servizio clienti.",
+    "error_61876": "Ti sei autosospeso da tutti i nostri prodotti.<br><br>Durante questo periodo non potrai giocare, effettuare versamenti né accedere alle pagine del conto. Per eventuali domande, contatta il Servizio clienti.",
+    "error_40387": "Non è stato possibile completare l'ultima operazione. Il gioco verrà chiuso. Vi invitiamo ad aprirlo di nuovo.",
+    "error_64707": "Hai selezionato un importo che supera il tuo limite di versamento giornaliero; ti rimangono solo {0}.",
+    "error_64708": "Hai selezionato un importo che supera il tuo limite di versamento settimanale; ti rimangono solo {0}.",
+    "error_64709": "Hai selezionato un importo che supera il tuo limite di versamento mensile; ti rimangono solo {0}.",
+    "error_64710": "Oops, hai già raggiunto il tuo limite di versamento giornaliero.",
+    "error_64711": "Oops, hai già raggiunto il tuo limite di versamento settimanale.",
+    "error_64712": "Oops, hai già raggiunto il tuo limite di versamento mensile.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "We wanted to let you know that you've been playing for over {0} minutes.<br>Your winnings/losses for your gaming session: <span>{1}</span><br>Your In-play balance: <span>{2}</span><br> Do you want to continue playing?",
+    "PR_RCPClosed": "You have chosen to end your gaming session from another game. This game will now close.",
+    "PR_SessionTimeLimit": "You have committed to a maximum play time of {0} minutes.<br/>You have been playing for {1} minutes in this session.<br/><br/>You may continue to play or choose to leave the game if you so wish.",
+    "USNJ_GeoLocMsg1": "Siamo spiacenti, ma non possiamo convalidare la tua ubicazione per problemi tecnici. Riprova più tardi.",
+    "USNJ_GeoLocMsg2": "Siamo spiacenti, ma non possiamo consentirti di proseguire. Il nostro sistema indica che ti trovi in una regione in cui questa operazione non è permessa per restrizioni di natura legale. <a href='{0}'>Maggiori informazioni</a>",
+    "USNJ_GeoLocMsg3": "Non siamo in grado di confermare che ti trovi fisicamente in New Jersey. Se ci comunichi il tuo numero di cellulare e ti iscrivi ai servizi di localizzazione, è molto più probabile che riusciamo a determinare la tua posizione, consentendoti così di giocare sul nostro sito.",
+    "USNJ_SessionTimeLimit": "Ci hai chiesto di impostare un limite di tempo giornaliero e per oggi l'hai raggiunto. Grazie per aver giocato. Domani sarai di nuovo il benvenuto e potrai ricominciare a giocare."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

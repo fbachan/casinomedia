@@ -1,0 +1,178 @@
+<p>
+    Vid European Roulette försöker spelaren gissa, på vilket nummer kulan
+    kommer att hamna på roulettskivan.
+</p>
+<p>
+    iPhone-/Android-versionen ger stöd för både stående och liggande vyer samt
+    för zoom vilket ger optimal användbarhet.
+</p>
+<p>
+    Om du placerar en ikon på hemskärmen på din iPhone så kommer du lättare åt
+    spelet. När du är inne i spelet ska du trycka på knappen "+" på den nedre
+    navigeringslisten och sedan välja "Add to Home Screen".
+</p>
+
+<h3>Spelregler</h3>
+
+<p>
+    Rouletten består av ett spelfält (tablå), där du kan placera dina marker
+    och av rouletteskivan. Denna är markerad med talen 1 till 36 samt en
+    nolla. Talen är omväxlande svarta och röda, nollan är grön i botten.
+</p>
+<p>
+    Du har möjligheten att sätta på ett enda tal, sidotal eller flera tal
+    (InsideBets) resp. på enkla eller flerfaldiga chanser som rött-udda eller
+    liknande (OutsideBets).
+</p>
+<h3>Hur man spelar</h3>
+
+<div class="help_bet"></div>
+
+<dl>
+    <dt>Placera insatser</dt>
+    <dd>
+        Välj värdet på spelmarken och placera din spelmark på bordet genom att
+        trycka på det valda fältet. Ett popup-fönster visar spelmarkernas
+        summa på respektive fält och gällande betalning.
+    </dd>
+    <dt>Ta bort spelmarker</dt>
+    <dd>
+        Välj "Ångra" för att ta bort den senast placerade marken. Välj
+        "Ta bort insatser" för att ta bort alla spelmarker.
+    </dd>
+    <dt>Start</dt>
+    <dd>
+        Tryck på "Snurra" för att snurra på hjulet.
+    </dd>
+</dl>
+
+<div class="help_draw"></div>
+
+<p>
+    När kulan har stannat i ett fack visas numret på vinstfacket i förstorad
+    version.
+</p>
+<p>
+    Din vinst samt betalningssumman visas i respektive fält.
+</p>
+
+<p>
+    Tryck på "Satsa igen & snurra" för att göra om samma insats utan att gå tillbaka
+    till bordsvyn.
+</p>
+<p>
+    Klicka på "Tillbaka till bord" för att återvända till bordsvyn. På bordet finns
+    spelmarkerna från den senaste insatsen. Använd "Ta bort insatser" för att ta bort
+    alla spelmarker.
+</p>
+<p>
+    Värden:<span id="rDenominations"></span>
+</p>
+<p>
+    Teoretisk avkastning till spelaren i det här spelet är<span id="RTPValue"></span>
+</p>
+
+<p>
+    Vid eventuella fel annulleras alla utbetalningar.
+</p>
+<p>
+    <a id="RGLink" href="">Spelansvar.</a>
+</p>
+<table>
+    <caption>Översikt: Vinstchans</caption>
+    <thead>
+        <tr>
+            <td></td>
+            <td>Insats</td>
+            <td>Odds</td>
+            <td class="rulesDS">Min Bet</td>
+            <td class="rulesDS">Max Bet</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="6" class="verticalHead"><div class="numbers">Numbers</div></td>
+            <td>Plein</td>
+            <td class="odds">35 - 1</td>
+            <td class="rulesDS straightMin"></td>
+            <td class="rulesDS straightMax"></td>
+        </tr>
+        <tr>
+            <td>Cheval</td>
+            <td class="odds">17 - 1</td>
+            <td class="rulesDS splitMin"></td>
+            <td class="rulesDS splitMax"></td>
+        </tr>
+        <tr>
+            <td>Transveral Plein</td>
+            <td class="odds">11 - 1</td>
+            <td class="rulesDS streetMin"></td>
+            <td class="rulesDS streetMax"></td>
+        </tr>
+        <tr>
+            <td>Carré</td>
+            <td class="odds">8 - 1</td>
+            <td class="rulesDS cornerMin"></td>
+            <td class="rulesDS cornerMax"></td>
+        </tr>
+        <tr>
+            <td>Fem-satsning</td>
+            <td class="odds">5 - 1</td>
+            <td class="rulesDS lineMin"></td>
+            <td class="rulesDS lineMax"></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td rowspan="8" class="verticalHead"><div class="chance">Chance</div></td>
+            <td>Kolonne</td>
+            <td class="odds">2 - 1</td>
+            <td class="rulesDS columnMin"></td>
+            <td class="rulesDS columnMax"></td>
+        </tr>
+        <tr>
+            <td>Dussin</td>
+            <td class="odds">2 - 1</td>
+            <td class="rulesDS dozenMin"></td>
+            <td class="rulesDS dozenMax"></td>
+        </tr>
+        <tr>
+            <td>Angränsande kolonne</td>
+            <td class="odds">0.5 - 1</td>
+            <td class="rulesDS adjColumnMin"></td>
+            <td class="rulesDS adjColumnMax"></td>
+        </tr>
+        <tr>
+            <td>Angränsande Dussin</td>
+            <td class="odds">0.5 - 1</td>
+            <td class="rulesDS adjDozenMin"></td>
+            <td class="rulesDS adjDozenMax"></td>
+        </tr>
+        <tr>
+            <td>Manque <span class='nowrap'>1 - 18</span></td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS lowNumbersMin"></td>
+            <td class="rulesDS lowNumbersMax"></td>
+        </tr>
+        <tr>
+            <td>Passe <span class='nowrap'>19 - 36</span></td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS highNumbersMin"></td>
+            <td class="rulesDS highNumbersMax"></td>
+        </tr>
+        <tr>
+            <td>Rött/Svart</td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS redBlackMin"></td>
+            <td class="rulesDS redBlackMax"></td>
+        </tr>
+        <tr>
+            <td>Jämna/Udda</td>
+            <td class="odds">1 - 1</td>
+            <td class="rulesDS evenOddMin"></td>
+            <td class="rulesDS evenOddMax"></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- VERSION_INFO -->

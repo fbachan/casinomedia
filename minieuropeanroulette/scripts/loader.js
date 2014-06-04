@@ -1,0 +1,1 @@
+require.config({catchError:{define:!0,waitSeconds:0}}),require.onError=function(n){alert("error loading"),alert(n.requireType)},require(["main"],function(){});

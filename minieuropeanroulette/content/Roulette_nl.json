@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Account",
+    "backToLobby": "Terug naar de lobby",
+    "cancel": "Annuleren",
+    "home": "Home",
+    "loading": "Laden...",
+    "initializing": "Opstarten...",
+    "ok": "OK",
+    "payIn": "Betalen",
+    "reload": "Reload Game",
+    "completeCellPhoneReg": "Complete Cell Phone Registration",
+    "keepPlaying": "Blijf spelen",
+    "closeGames": "Sluit alle games",
+    "closeGame": "Sluit game"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Tegoed",
+    "id": "ID",
+    "totalBet": "Totale inzet"
+  },
+  "aside": {
+    "history": "Geschiedenis",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Uw bod"
+  },
+  "gameButtons": {
+    "spin": "Spin",
+    "double": "Dubbel",
+    "undo": "Ongedaan maken",
+    "clearBets": "Inzet legen",
+    "rebetSpin": "Rebet&Spin",
+    "doubleAndSpin": "2x&Spin",
+    "newBet": "Nieuwe inzet",
+    "backToTable": "Terug naar de tafel"
+  },
+  "rules": {
+    "backToGame": "Terug naar de game",
+    "rules": "Regels",
+    "RGLink": "Responsible Gaming site",
+    "rMalfunction": "Malfunction voids all pays.",
+    "rDenominations": "Denominations",
+    "rateOfReturn": "The theoretical return percentage for the player in this game is 91.78%."
+  },
+  "settings": {
+    "settings": "Instellingen",
+    "turboMode": "Turbo Modus",
+    "on": "AAN",
+    "off": "UIT",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "De game werkt niet in een verkleinde modus en modus met meerdere vensters. Maximaliseer de game door te klikken op de button voor volledige schermweergave in uw browser om door te spelen.",
+    "wantToRemove": "Wilt u alle chips verwijderen?",
+    "minStake": "U moet een hogere inzet plaatsen omdat de minimale inzet vastgesteld is op {0}.",
+    "maxStake": "U kunt deze inzet niet doen omdat de maximale inzet vastgesteld is op {0}.",
+    "cannotDouble": "Er zijn enkele weddenschappen op de tafel die niet verdubbeld kunnen worden vanwege de limiet voor bepaalde wedopties. Wij hebben alle mogelijke inzetten verdubbeld.",
+    "cannot1to18": "U kunt niet tegelijkertijd inzetten op 1-18 en 19-36.",
+    "cannotODDtoEVEN": "U kunt niet tegelijkertijd inzetten op ODD en EVEN.",
+    "cannotREDtoBLACK": "U kunt niet tegelijkertijd inzetten op RED en BLACK.",
+    "cannotThreeDozens": "U kunt niet tegelijkertijd inzetten op alle drie de dozijnen.",
+    "cannotThreeColumns": "U kunt niet tegelijkertijd inzetten op alle drie de kolommen.",
+    "cannotAdjColumns": "U kunt niet tegelijkertijd inzetten op alle aangrenzende kolommen.",
+    "cannotAdjDozens": "U kunt niet tegelijkertijd inzetten op alle aangrenzende dozijnen.",
+    "needPlaceBet": "U moet een inzet plaatsen.",
+    "loginProblem": "Er is een probleem met het inloggen op de server.<br>Laad de game opnieuw.",
+    "knownError": "Er is iets fout gegaan.<br>Error: {0}<br>{1}",
+    "serverDown": "Let op dat vanwege routinematige onderhoudswerkzaamheden bij een deel van ons systeem, wij momenteel niet in staat zijn om een nieuwe game te lanceren. Controleer regelmatig of u al verder kunt spelen. Onze excuses voor het eventueel ontstane ongemak.",
+    "geoBlocked": "Helaas is de game momenteel onbeschikbaar voor spelers afkomstig uit uw regio. U kunt nog altijd andere games spelen, bezoek dus de lobby en bekijk wat wij u verder kunnen bieden.",
+    "gameDisabled": "Helaas is deze game momenteel onbeschikbaar. U kunt nog altijd andere games spelen, dus bezoek de Lobby en bekijk wat wij u verder kunnen bieden.",
+    "notAvailable": "Game is niet beschikbaar.<br>{0}",
+    "loggedOnOtherMachine": "Uw sessie is gestopt omdat deze klant is ingelogd vanuit een locatie.",
+    "lowBalance": "Uw accounttegoed is te laag om een weddenschap te plaatsen.",
+    "lobbyAccountBalanceLimitation": "Momenteel kunt u niet met echt geld spelen omdat u onvoldoende tegoed op uw account heeft staan of vanwege andere beperkingen. U kunt nu een storting doen of kiezen voor 'Play for Fun'.",
+    "tryingReconnect": "De verbinding met de server is gestopt. <br> Verbinding wordt opnieuw verzocht...",
+    "failedRestore": "Verbinding met de server is gestopt.<br>Het is niet gelukt om de verbinding opnieuw tot stand te brengen.<br>Laad de game opnieuw.",
+    "changeLimits": "Ik wil mijn limieten veranderen",
+    "error_40015": "Uw verantwoord spelen-sessie is nu verlopen. Wilt u doorspelen?",
+    "error_60144": "U heeft uw dagelijkse verlieslimiet overschreden, en u mag niet meer spelen vandaag.  Kom morgen weer terug.",
+    "error_59532": "Het door u gekozen bedrag overscheidt uw verlieslimieten. U kunt slechts {0} meenemen naar een casinogame.",
+    "error_61869": "U mag geen echt geld games spelen of gebruik maken van loyaliteitspunten bij dit product. Neem contact op met onze Klantenservice voor meer informatie.",
+    "error_61870": "U heeft uzelf permanent uitgesloten van al onze producten.<br><br>U kunt niet spelen, geen storting doen en heeft geen toegang tot de accountpagina's. Neem contact op met onze Klantenservice wanneer u vragen heeft.",
+    "error_61871": "U heeft ervoor gekozen om dit product op uw account te sluiten. U mag geen echt geld games spelen en heeft geen toegang tot de loyaliteitspunten market voor dit product. Bezoek alstublieft de 'Sluting dienst' sectie voor meer<br>informatie en om de instellingen te wijzigen.",
+    "error_61872": "U mag geen rebuy en/of add on doen voor dit product. Neem contact op met onze Klantenservice voor <br>meer informatie.",
+    "error_61873": "U heeft ervoor gekozen om dit product op uw account te sluiten. U mag geen rebuy en/of add on te doen. <br>Bezoek de 'Sluiting dienst' sectie voor meer informatie en om de instellingen aan te passen. Klik op OK om naar de  'Sluiting dienst' Pagina te gaan.",
+    "error_61874": "U heeft uzelf uitgesloten van al onze producten. Daarom kunt u geen <br> rebuy/add on uitvoeren. Bij vragen kunt u contact opnemen met onze Klantenservice.",
+    "error_61875": "U heeft uzelf permanent uitgesloten van al onze producten. U kunt daarom geen rebuy/add on aanvragen. Neem contact op met onze <br>Klantenservice bij vragen.",
+    "error_61876": "U heeft uzelf uitgesloten van al onze producten.<br><br>Gedurende deze periode kunt u niet spelen, geen storting doen en heeft u geen toegang tot onze accountpagina's. Neem contact op met onze Klantenservice bij vragen.",
+    "error_40387": "De laatste handeling kon niet uitgevoerd worden. De game wordt nu gesloten. Open de game alstublieft opnieuw.",
+    "error_64707": "U heeft een bedrag gekozen waarmee uw dagelijkse limiet wordt overschreden, er is nog {0} over.",
+    "error_64708": "U heeft een bedrag gekozen waarmee uw wekelijkse limiet wordt overschreden, er is nog {0} over.",
+    "error_64709": "U heeft een bedrag gekozen waarmee uw maandelijkse limiet wordt overschreden, er is nog {0} over.",
+    "error_64710": "Helaas heeft u uw dagelijkse limiet al bereikt.",
+    "error_64711": "Helaas heeft u uw wekelijkse limiet al bereikt.",
+    "error_64712": "Helaas heeft u uw maandelijkse limiet al bereikt.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "Wij willen u vertellen dat u nu {0} minuten heeft gespeeld.<br>Uw winsten/verliezen voor uw gamingsessie: <span>{1}</span><br>Uw speltegoed in de game: <span>{2}</span><br> Wilt u verder spelen?",
+    "PR_RCPClosed": "U heeft ervoor gekozen om de gamingsessie van een andere game te beëindigen. Deze game wordt nu gesloten.",
+    "PR_SessionTimeLimit": "U heeft aangegeven maximaal {0} minuten te willen spelen.<br/>U heeft in deze sessie reeds {1} minuten gespeeld.<br/><br/>U kunt blijven spelen of ervoor kiezen om te stoppen.",
+    "USNJ_GeoLocMsg1": "Helaas konden wij u locatie niet valideren vanwege technische problemen. Probeer het later opnieuw.",
+    "USNJ_GeoLocMsg2": "Helaas kunnen wij u niet toestaan om door te spelen. Ons systeem geeft aan dat u zich in een regio bevindt waar deze handeling niet is toegestaan. Dit is vanwege wettelijke beperkingen <a href='{0}'>Lees hier meer</a>",
+    "USNJ_GeoLocMsg3": "We are unable to confirm your physical location to be in New Jersey. By giving us your cell number and registering for location services, it is far more likely we will be successful in locating you and allowing you to play at our site.",
+    "USNJ_SessionTimeLimit": "U heeft gevraagd om voor uzelf een dagelijkse tijdslimiet in te stellen, en u heeft deze limiet bereikt. Hartelijk dank voor het spelen. Wij hopen u morgen weer te mogen begroeten."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

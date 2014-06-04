@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Konto",
+    "backToLobby": "Tillbaka till lobbyn",
+    "cancel": "Avbryt",
+    "home": "Hem",
+    "loading": "Läses in…",
+    "initializing": "Initieras…",
+    "ok": "OK",
+    "payIn": "Insättning",
+    "reload": "Läs in spelet igen",
+    "completeCellPhoneReg": "Mobilregistrering",
+    "keepPlaying": "Keep Playing",
+    "closeGames": "Close All Games",
+    "closeGame": "Avsluta spelet"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Saldo",
+    "id": "ID",
+    "totalBet": "Total insats"
+  },
+  "aside": {
+    "history": "Historik",
+    "zoom": "Zooma"
+  },
+  "yourBets": {
+    "yourBets": "Dina spel"
+  },
+  "gameButtons": {
+    "spin": "Snurra",
+    "double": "Dubbla",
+    "undo": "Ångra",
+    "clearBets": "Ta bort insatser",
+    "rebetSpin": "Satsa igen & snurra",
+    "doubleAndSpin": "2x&Snurra",
+    "newBet": "Nytt spel",
+    "backToTable": "Tillbaka till bord"
+  },
+  "rules": {
+    "backToGame": "Tillbaka till spel",
+    "rules": "Regler",
+    "RGLink": "Spelansvar",
+    "rMalfunction": "Vid eventuella fel annulleras alla utbetalningar.",
+    "rDenominations": "Värden",
+    "rateOfReturn": "Teoretisk avkastning till spelaren i det här spelet är 91,78%."
+  },
+  "settings": {
+    "settings": "Inställningar",
+    "turboMode": "Turboläge",
+    "on": "PÅ",
+    "off": "AV",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "Spelet fungerar inte i minimerat läge eller i flerfönsterläge. För att kunna fortsätta måste du maximera spelet genom att trycka på helskärmsknappen i webbläsarfönstret.",
+    "wantToRemove": "Vill du ta bort alla marker?",
+    "minStake": "Du måste lägga en högre insats. Lägsta tillåtna insats är {0}.",
+    "maxStake": "Du kan inte lägga den här insatsen. Högsta tillåtna insats är {0}.",
+    "cannotDouble": "Det finns några insatser på bordet som inte kan dubblas på grund av begränsningar avseende vissa spelalternativ. Vi har dubblat alla insatser där så är möjligt.",
+    "cannot1to18": "Du kan inte satsa på 1-18 och 19-36 samtidigt.",
+    "cannotODDtoEVEN": "Du kan inte satsa på UDDA och JÄMNT samtidigt.",
+    "cannotREDtoBLACK": "Du kan inte satsa på RÖTT och SVART samtidigt.",
+    "cannotThreeDozens": "Du kan inte satsa på alla tre dussin (tolv nummer) samtidigt.",
+    "cannotThreeColumns": "Du kan inte satsa på alla tre kolumner samtidigt.",
+    "cannotAdjColumns": "Du kan inte satsa på alla angränsande kolumner samtidigt.",
+    "cannotAdjDozens": "Du kan inte satsa på alla angränsande dussin samtidigt.",
+    "needPlaceBet": "Du måste lägga en insats.",
+    "loginProblem": "Problem med inloggningen till servern.<br>Läs in spelet igen.",
+    "knownError": "Något gick fel.<br>Fel: {0}<br>{1}",
+    "serverDown": "På grund av rutinunderhåll av delar av vårt system kan vi inte starta nya spel för närvarande. Kom tillbaka om en stund och kontrollera om det går att spela. Vi beklagar eventuella besvär som detta kan medföra.",
+    "geoBlocked": "Det går tyvärr inte att spela det här spelet där du befinner dig. Du kan fortfarande spela andra spel. Gå till lobbyn och se efter vad vi har att erbjuda.",
+    "gameDisabled": "Det går tyvärr inte att spela det här spelet just nu. Du kan fortfarande spela andra spel. Gå till lobbyn och se efter vad vi har att erbjuda.",
+    "notAvailable": "Spelet är inte tillgängligt.<br>{0}",
+    "loggedOnOtherMachine": "Din session har avbrutits eftersom användaren har loggat in från en annan plats.",
+    "lowBalance": "Ditt kontosaldo täcker inte insatsen.",
+    "lobbyAccountBalanceLimitation": "Du kan inte spela med riktiga pengar eftersom du inte har tillräckligt med pengar på kontot eller på grund av andra begränsningar. Du kan göra en inbetalning nu eller välja att spela med låtsaspengar.",
+    "tryingReconnect": "Anslutningen till servern har brutits. <br>Återansluter…",
+    "failedRestore": "Anslutningen till servern har avbrutits.<br>Kunde inte återställa anslutningen.<br>Läs in spelet igen.",
+    "changeLimits": "Jag vill ändra mina köpgränser:",
+    "error_40015": "Den tid som du angivit som en spelansvarsåtgärd har löpt ut. Vill du fortsätta?",
+    "error_60144": "Du har överskridit din gräns för hur mycket du får förlora på en dag och kan inte spela mer idag. Välkommen tillbaka i morgon.",
+    "error_59532": "Beloppet du valde överskrider din inställda förlustgräns. Du kan endast ta {0} till ett kasinospel.",
+    "error_61869": "Du har inte rätt att delta i spel om riktiga pengar eller att få åtkomst till lojalitetsbutiken för den här produkten. Kontakta kundtjänst för mer information.",
+    "error_61870": "Du har själv valt att fortsättningsvis avstå från spel på alla våra produkter.<br><br>Du kan därför varken spela, göra insättningar eller få åtkomst till kontosidorna. Kontakta kundtjänst om du har frågor.",
+    "error_61871": "Du har valt att spärra den här produkten i ditt konto. Du har inte rätt att delta i spel med riktiga pengar i den här produkten eller att besöka b'inside Market. Gå till sektionen Spärra kontot om du vill veta mer eller ändra inställningarna.",
+    "error_61872": "Du har inte rätt att göra ett nytt köp och/eller utöka ditt köp för den här produkten. Kontakta kundtjänst för <br>mer information.",
+    "error_61873": "Du har valt att spärra den här produkten i ditt konto. Du har inte rätt att göra ett nytt köp och/eller att utöka ditt köp. <br>Gå till sektionen Spärra kontot om du vill veta mer eller ändra inställningarna. Klicka på OK om du vill gå till sidan Spärra kontot.",
+    "error_61874": "Du har själv valt att avstå från att använda våra produkter. Du kan därför inte<br> göra ett nytt köp eller utöka ditt köp. Kontakta kundtjänst om du har frågor.",
+    "error_61875": "Du har själv valt att inte använda våra produkter längre. Du kan därför inte göra ett nytt köp eller utöka ditt köp. Kontakta <br>kundtjänst om du har frågor.",
+    "error_61876": "Du har själv valt att avstå från spel på alla våra produkter.<br><br>Under den perioden kan du varken spela, göra insättningar eller få åtkomst till kontosidorna. Kontakta kundtjänst om du har frågor.",
+    "error_40387": "Den senaste åtgärden kunde inte utföras. Spelet kommer nu att avslutas. Vänligen öppna spelet igen.",
+    "error_64707": "Du har valt ett belopp som innebär att dagens köpgräns. Endast {0} återstår.",
+    "error_64708": "Du har valt ett belopp som innebär att veckans köpgräns överskrids. Endast {0} återstår.",
+    "error_64709": "Du har valt ett belopp som innebär att månadens köpgräns överskrids. Endast {0} återstår.",
+    "error_64710": "Oj. Du har redan överskridit dagens köpgräns.",
+    "error_64711": "Oj. Du har redan överskridit veckans köpgräns.",
+    "error_64712": "Oj. Du har redan överskridit månadens köpgräns.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "We wanted to let you know that you've been playing for over {0} minutes.<br>Your winnings/losses for your gaming session: <span>{1}</span><br>Your In-play balance: <span>{2}</span><br> Do you want to continue playing?",
+    "PR_RCPClosed": "You have chosen to end your gaming session from another game. This game will now close.",
+    "PR_SessionTimeLimit": "You have committed to a maximum play time of {0} minutes.<br/>You have been playing for {1} minutes in this session.<br/><br/>You may continue to play or choose to leave the game if you so wish.",
+    "USNJ_GeoLocMsg1": "Vi kunde tyvärr inte bekräfta din plats gå grund av tekniska problem. Försök igen senare.",
+    "USNJ_GeoLocMsg2": "Vi kan tyvärr inte låta dig fortsätta. Enligt vårt system befinner du dig inom ett område där den här åtgärden inte är tillåten. Det beror på lagstadgade bestämmelser <a href='{0}'>Läs mer</a>",
+    "USNJ_GeoLocMsg3": "Vi kan inte bekräfta att du befinner dig i New Jersey. Om du meddelar ditt mobilnummer och registrerar dig för lokaliseringstjänster är det mycket mer troligt att vi lyckas leta upp dig. Vi kan då ge dig tillåtelse att spela på vår webbplats.",
+    "USNJ_SessionTimeLimit": "Du har bett oss sätta en gräns för hur mycket du får spela varje dag och nu har gränsen uppnåtts för idag. Tack för att du har spelat. Välkommen tillbaka i morgon."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

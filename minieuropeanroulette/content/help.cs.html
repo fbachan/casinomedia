@@ -1,0 +1,263 @@
+﻿<p>Ve hře European Roulette zkouší hráč předpovědět, na kterém očíslovaném políčku ruletového kola přistane kulička.
+</p>
+
+<p>Verze pro iPhone/Android podporuje v zájmu optimálního fungování hry horizontální i vertikální polohu telefonu i zoom.</p>
+
+<p>Snadnější přístup ke hře získáte, když na úvodní displej vašeho přístroje umístíte ikonu hry. Stačí, když ve hře v menu webové stránky zvolíte možnost "Add to Home Screen".</p>
+
+
+<h3>Pravidla</h3>
+
+
+<p>Kolo rulety je rozděleno do políček očíslovaných od 1 do 36; jedno políčko je označeno jako "0". Čísla mají střídavě červenou a černou barvu, "0" je zelená.</p>
+
+<p>Ruletový stůl je rozdělen do různých sekcí - jednotlivých čísel a skupinových sázek. Sázka na jednotlivá čísla, sousední čísla nebo malé skupiny čísel se označují jako 'Inside Bets', zatímco sázky na skupiny 12 či 18 čísel (např. červená, sudá atd.) se nazývají 'Outside Bets'.</p>
+
+
+<h3>Návod ke hře</h3>
+
+
+<div class="help_bet"></div>
+
+
+<dl>
+
+    <dt>Sázení</dt>
+
+    <dd>Zvolte si hodnotu žetonu a žeton umístěte na stůl klepnutím na vybrané pole. V pop-up okně se zobrazí součet žetonů umístěných na odpovídající pole a příslušné kurzy.</dd>
+
+    <dt>Odstraňování žetonů</dt>
+
+    <dd>Pomocí funkce "Undo" odstraníte poslední umístěný žeton. Když zvolíte možnost "Clear Bets", odstraní se všechny žetony.</dd>
+
+    <dt>Start</dt>
+
+    <dd>Klepněte na "Spin" a kolo se roztočí.</dd>
+
+</dl>
+
+
+<div class="help_draw"></div>
+
+
+<p>
+Když se kulička zastaví, zobrazí se číslo a detailní záběr na vyhrávající políčko.</p>
+
+<p>Vaše výhra a částka výplaty jsou uvedeny v příslušných položkách.</p>
+
+
+<p>Když klepnete na "Rebet&Spin", zopakujete stejnou sázku bez toho, abyste se vraceli na náhled stolu.</p>
+
+<p>Klepnutím na "Back to table" se vrátíte na náhled stolu. Na stole jsou žetony z poslední sázky. Pomocí tlačítka "Clear Bets" odstraníte všechny žetony.</p>
+
+<p>Denominace:<span id="rDenominations"></span>
+</p>
+
+<p>Teoretický výnos hráče v této hře je<span id="RTPValue"></span></p>
+
+<p>Při poruchách se ruší všechny výplaty.
+</p>
+
+<p><a id="RGLink" href="">Stránka Responsible Gamingu.</a>
+</p>
+
+<table>
+    <caption>Výplaty</caption>
+
+    <thead>
+
+        <tr>
+
+            <td></td>
+
+            <td>Typ sázky</td>
+
+            <td>Kurz</td>
+
+            <td class="rulesDS">Min. sázka</td>
+
+            <td class="rulesDS">Max. sázka</td>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+
+            <td rowspan="6" class="verticalHead">
+
+                <div class="numbers">Čísla</div>
+
+            </td>
+
+            <td>Jednotlivé číslo</td>
+
+            <td class="odds">35 - 1</td>
+
+            <td class="rulesDS straightMin"></td>
+
+            <td class="rulesDS straightMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Split</td>
+
+            <td class="odds">17 - 1</td>
+
+            <td class="rulesDS splitMin"></td>
+
+            <td class="rulesDS splitMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Street</td>
+
+            <td class="odds">11 - 1</td>
+
+            <td class="rulesDS streetMin"></td>
+
+            <td class="rulesDS streetMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Corner</td>
+
+            <td class="odds">8 - 1</td>
+
+            <td class="rulesDS cornerMin"></td>
+
+            <td class="rulesDS cornerMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Line</td>
+
+            <td class="odds">5 - 1</td>
+
+            <td class="rulesDS lineMin"></td>
+
+            <td class="rulesDS lineMax"></td>
+
+        </tr>
+
+    </tbody>
+
+    <tbody>
+
+        <tr>
+
+            <td rowspan="8" class="verticalHead">
+
+                <div class="chance">Šance</div>
+
+            </td>
+
+            <td>Sloupec</td>
+
+            <td class="odds">2 - 1</td>
+
+            <td class="rulesDS columnMin"></td>
+
+            <td class="rulesDS columnMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Tucet</td>
+
+            <td class="odds">2 - 1</td>
+
+            <td class="rulesDS dozenMin"></td>
+
+            <td class="rulesDS dozenMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Sousedící sloupec</td>
+
+            <td class="odds">0.5 - 1</td>
+
+            <td class="rulesDS adjColumnMin"></td>
+
+            <td class="rulesDS adjColumnMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Sousedící tucet</td>
+
+            <td class="odds">0.5 - 1</td>
+
+            <td class="rulesDS adjDozenMin"></td>
+
+            <td class="rulesDS adjDozenMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Nízká čísla <span class='nowrap'>1 - 18</span></td>
+
+            <td class="odds">1 - 1</td>
+
+            <td class="rulesDS lowNumbersMin"></td>
+
+            <td class="rulesDS lowNumbersMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Vysoká čísla <span class='nowrap'>19 - 36</span></td>
+
+            <td class="odds">1 - 1</td>
+
+            <td class="rulesDS highNumbersMin"></td>
+
+            <td class="rulesDS highNumbersMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Červená nebo černá</td>
+
+            <td class="odds">1 - 1</td>
+
+            <td class="rulesDS redBlackMin"></td>
+
+            <td class="rulesDS redBlackMax"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Sudá nebo lichá</td>
+
+            <td class="odds">1 - 1</td>
+
+            <td class="rulesDS evenOddMin"></td>
+
+            <td class="rulesDS evenOddMax"></td>
+
+        </tr>
+
+    </tbody>
+
+</table>
+
+<!-- VERSION_INFO -->

@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Konto",
+    "backToLobby": "Wróć do lobby",
+    "cancel": "Anuluj",
+    "home": "Home",
+    "loading": "Ładowanie…",
+    "initializing": "Uruchamianie…",
+    "ok": "OK",
+    "payIn": "Wpłać",
+    "reload": "Ośwież",
+    "completeCellPhoneReg": "Rejestracja telefonu komórkowego",
+    "keepPlaying": "Graj dalej",
+    "closeGames": "Zamknij gry",
+    "closeGame": "Zamknij grę"
+  },
+  "lobby": {
+    "playReal": "Play for Real",
+    "playForFun": "Play for Fun"
+  },
+  "menu": {
+    "balance": "Saldo",
+    "id": "ID",
+    "totalBet": "Stawka"
+  },
+  "aside": {
+    "history": "Historia",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Twe stawki"
+  },
+  "gameButtons": {
+    "spin": "Zakręć",
+    "double": "Podwój",
+    "undo": "Cofnij",
+    "clearBets": "Usuń",
+    "rebetSpin": "Ponów i zakręć",
+    "doubleAndSpin": "Podwój i zakręć",
+    "newBet": "Nowa stawka",
+    "backToTable": "Powrót do stołu"
+  },
+  "rules": {
+    "backToGame": "Powrót do gry",
+    "rules": "Zasady",
+    "RGLink": "Strona Responsible Gaming",
+    "rMalfunction": "Błąd w działaniu anuluje wszystkie wyniki.",
+    "rDenominations": "Wartości",
+    "rateOfReturn": "Teoretyczna stopa zwrotu w tej grze wynosi 91.78%."
+  },
+  "settings": {
+    "settings": "Ustawienia",
+    "turboMode": "Tryb turbo",
+    "on": "Wł.",
+    "off": "Wył.",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "Ta gra nie działa w trybie zminimalizowanym oraz przy otwartych kilku oknach. Prosimy o zmaksymalizowanie okna przeglądarki, aby kontynuować. ",
+    "wantToRemove": "Czy chcesz usunąć wszystkie żetony?",
+    "minStake": "Musisz wnieść wyższą stawkę. Minimalna stawka wynosi {0}.",
+    "maxStake": "Nie możesz wnieść tej stawki, ponieważ maksymalna wysokość stawki wynosi {0}.",
+    "cannotDouble": "Na stole znajdują się zakłady, które nie mogą zostać podwojone ze względu na limity stawek. Wszystkie dostępne stawki zostały podwojone.",
+    "cannot1to18": "Nie możesz postawić stawki na 1-18 i 19-36 jednocześnie.",
+    "cannotODDtoEVEN": "Nie możesz postawić stawki na liczby parzyste i nieparzyste jednocześnie.",
+    "cannotREDtoBLACK": "Nie możesz postawić stawki na czarne i czerwone pola jednocześnie.",
+    "cannotThreeDozens": "Nie możesz postawić stawki na wszystkie tuziny jednocześnie.",
+    "cannotThreeColumns": "Nie możesz postawić stawki na wszystkie kolumny jednocześnie.",
+    "cannotAdjColumns": "Nie możesz postawić na wszystkie kolumny jednocześnie.",
+    "cannotAdjDozens": "Nie możesz postawić na wszystkie tuziny jednocześnie.",
+    "needPlaceBet": "Musisz wnieść stawkę.",
+    "loginProblem": "Wystąpił problem z logowaniem na serwer. <br>Prosimy odświeżyć grę.",
+    "knownError": "Coś poszło nie tak.<br>Błąd: {0}<br>{1}",
+    "serverDown": "Ze względu na rutynowe prace serwisowe, uruchomienie nowej gry jest obecnie niemożliwe. Prosimy spróbować później. Przepraszamy za ewentualne utrudnienia.",
+    "geoBlocked": "Przykro nam, ale ta gra jest obecnie niedostępna w Twoim kraju. Możesz jednak zagrać w inne gry - przejdź do lobby i zapoznaj się z naszą ofertą.",
+    "gameDisabled": "Przykro nam, ale ta gra jest obecnie niedostępna. Możesz jednak zagrać w inne gry - przejdź do lobby i zapoznaj się z naszą ofertą.",
+    "notAvailable": "Gra jest obecnie niedostępna.<br>{0}",
+    "loggedOnOtherMachine": "Sesja została przerwana, ponieważ ten użytkownik jest zalogowany w innym miejscu.",
+    "lowBalance": "Nie masz wystarczających środków, by wnieść tę stawkę.",
+    "lobbyAccountBalanceLimitation": "Obecnie nie możesz zagrać na prawdziwe pieniądze, ponieważ nie masz na swoim koncie wystarczających środków lub z powodu innych ograniczeń. Możesz zagrać na pieniądze wirtualne lub dokonać wpłaty.",
+    "tryingReconnect": "Połączenie  z serwerem zostało zerwane.<br>Próba przywrócenia połączenia…",
+    "failedRestore": "Połączenie z serwerem zostało przerwane. <br>Przywrócenie połączenia nie powiodło się.<br>Prosimy o ponowne uruchomienie gry.",
+    "changeLimits": "Chcę zmienić wysokość limitów.",
+    "error_40015": "Czas odpowiedzialnej gry minął. Czy chcesz kontynuować?",
+    "error_60144": "Przekroczyłeś dzienny limit przegranych i nie możesz dalej grać. Zapraszamy do gry jutro.",
+    "error_59532": "Kwota, którą wybrałeś przekracza Twój ustalony limit strat. Możesz zabrać jedynie {0} do gry kasynowej.",
+    "error_61869": "Nie możesz w tej usłudze grać na prawdziwe pieniądze oraz korzystać z Marketu b’inside. Jeśli chcesz otrzymać więcej informacji, prosimy o kontakt z naszym działem obsługi klienta.",
+    "error_61870": "Dobrowolnie i permanentnie zablokowałeś dostęp do naszych usług. Nie możesz grać i dokonywać wpłat, nie masz także dostępu do swojego konta. W przypadku pytań, prosimy o kontakt z naszym działem obsługi klienta.",
+    "error_61871": "Zdecydowałeś się na blokadę tej usługi na Twoim koncie. Nie możesz grać na prawdziwe pieniądze i nie masz dostępu do Marketu b'inside. Zapoznaj się ze stroną blokady usług, by dowiedzieć się więcej i dokonać ustawień.",
+    "error_61872": "W ramach tej usługi nie możesz wykupić re-buy lub/i add-on. W przypadku pytań, prosimy o kontakt z naszym działem obsługi klienta.",
+    "error_61873": "Postanowiłeś zablokować ten produkt na swoim koncie. Nie możesz wykupić re-buy lub/i add-on. Przejdź do strony blokady usług, by dowiedzieć się więcej i zmienić ustawienia.",
+    "error_61874": "Dobrowolnie zablokowałeś dostęp do wszystkich naszych produktów i z tego względu nie możesz wykupić re-buy lub/i add-on. W przypadku pytań, prosimy o kontakt z naszym działem obsługi klienta. ",
+    "error_61875": "Dobrowolnie i permanentnie zablokowałeś dostęp do wszystkich naszych produktów i z tego względu nie możesz wykupić re-buy lub/i add-on. W przypadku pytań, prosimy o kontakt z naszym działem obsługi klienta.",
+    "error_61876": "Dobrowolnie zablokowałeś dostęp do naszych usług. W tym czasie nie możesz grać i dokonywać wpłat, nie masz także dostępu do swojego konta. W przypadku pytań, prosimy o kontakt z naszym działem obsługi klienta.",
+    "error_40387": "Ostatnia operacja nie mogła zostać wykonana. Gra zostanie teraz zamknięta. Otwórz ją ponownie.",
+    "error_64707": "Wybrałeś kwotę, która przekracza Twój dzienny limit wydatków. Kwota, którą możesz wykorzystać, wynosi {0}.",
+    "error_64708": "Wybrałeś kwotę, która przekracza Twój tygodniowy limit wydatków. Kwota, którą możesz wykorzystać, wynosi {0}.",
+    "error_64709": "Wybrałeś kwotę, która przekracza Twój miesięczny limit wydatków. Kwota, którą możesz wykorzystać, wynosi {0}.",
+    "error_64710": "Niestety wykorzystałeś już dzienny limit wydatków.",
+    "error_64711": "Niestety wykorzystałeś już tygodniowy limit wydatków.",
+    "error_64712": "Niestety wykorzystałeś już miesięczny limit wydatków.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "Chcemy Cię poinformować, że grasz już od ponad {0} minut.<br>Twoja wygrana/przegrana w tej sesji wynosi: <span>{1}</span><br>Stan Twojego konta wynosi: <span>{2}</span><br>Czy chcesz grać dalej?",
+    "PR_RCPClosed": "Postanowiłeś zakończyć sesję w innej grze. Ta gra zostanie zamknięta.",
+    "PR_SessionTimeLimit": "Ustaliłeś maksymalny czas gry na poziomie {0} minut.<br/>W czasie tej sesji grasz już od {1} minut. <br/><br/>Możesz grać dalej lub zdecydować się na zakończenie wszystkich gier. ",
+    "USNJ_GeoLocMsg1": "Przykro nam, ale nie udało nam się ustalić Twojej lokalizacji. Prosimy spróbować ponownie później.",
+    "USNJ_GeoLocMsg2": "Przykro nam, ale nie możesz kontynuować, Znajdujesz się w kraju, w którym ze względów prawnych jest to niemożliwe. <a href='{0}'>Dowiedz się więcej</a>.",
+    "USNJ_GeoLocMsg3": "Nie jesteśmy w stanie potwierdzić Pana dokładnej lokalizacji w New Jersey. Podając nam numer telefonu komórkowego i rejestrując się w usłudze lokalizacji, umożliwisz nam potwierdzenie miejsca pobytu, co umożliwi Ci grę na naszej stronie.",
+    "USNJ_SessionTimeLimit": "Prosiłeś nas o ustalenie dziennego limitu czasu, który właśnie upłynął. Dziękujemy za skorzystanie z naszych usług i zapraszamy ponownie jutro."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}

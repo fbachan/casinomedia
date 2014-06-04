@@ -1,0 +1,116 @@
+{
+  "common": {
+    "gameName": "European Roulette",
+    "account": "Účet",
+    "backToLobby": "Zpět do lobby",
+    "cancel": "Zpět",
+    "home": "Úvod",
+    "loading": "Načítám...",
+    "initializing": "Start...",
+    "ok": "OK",
+    "payIn": "Vložit",
+    "reload": "Načíst hru znovu",
+    "completeCellPhoneReg": "Dokončit registraci přes mobilní telefon",
+    "keepPlaying": "Hrát dál",
+    "closeGames": "Zavřít všechny hry",
+    "closeGame": "Zavřít hru"
+  },
+  "lobby": {
+    "playReal": "Hrajte o reálné peníze",
+    "playForFun": "Hrajte pro zábavu"
+  },
+  "menu": {
+    "balance": "Zůstatek",
+    "id": "Č.",
+    "totalBet": "Vklad celkem:"
+  },
+  "aside": {
+    "history": "Archiv",
+    "zoom": "Zoom"
+  },
+  "yourBets": {
+    "yourBets": "Vaše sázky"
+  },
+  "gameButtons": {
+    "spin": "Spin",
+    "double": "Zdvojit",
+    "undo": "Zpět",
+    "clearBets": "Smazat sázky",
+    "rebetSpin": "Znovu vsadit a Spin",
+    "doubleAndSpin": "2x a spin",
+    "newBet": "Nová sázka",
+    "backToTable": "Zpět ke stolu"
+  },
+  "rules": {
+    "backToGame": "Back to game",
+    "rules": "Rules",
+    "RGLink": "Responsible Gaming site",
+    "rMalfunction": "Malfunction voids all pays.",
+    "rDenominations": "Denominations",
+    "rateOfReturn": "The theoretical return percentage for the player in this game is 91.78%."
+  },
+  "settings": {
+    "settings": "Settings",
+    "turboMode": "Turbo Mode",
+    "on": "ON",
+    "off": "OFF",
+    "SFX": "SFX"
+  },
+  "errors": {
+    "needToMaximize": "Tato hra nefunguje v minimalizovaném okně ani ve více oknech najednou. Prosím, maximalizujte hru kliknutím na odpovídající tlačítko v okně vašeho prohlížeče a pokračujte.",
+    "wantToRemove": "Chcete odstranit všechny žetony?",
+    "minStake": "Musíte vsadit vyšší částku, protože minimální vklad je {0}.",
+    "maxStake": "Tuto sázku nemůžete uzavřít, protože maximální vklad je {0}.",
+    "cannotDouble": "Některé sázky na stole nemohou být zdvojeny kvůli omezením určitých typů sázek. Zdvojili jsme všechny možnosti.",
+    "cannot1to18": "Nemůžete vsadit na 1-18 a 19-36 najednou.",
+    "cannotODDtoEVEN": "Nemůžete vsadit na SUDÁ a LICHÁ čísla najednou.",
+    "cannotREDtoBLACK": "Nemůžete vsadit na ČERVENOU a ČERNOU najednou.",
+    "cannotThreeDozens": "Nemůžete vsadit na všechny tři tucty najednou.",
+    "cannotThreeColumns": "Nemůžete vsadit na všechny tři sloupce najednou.",
+    "cannotAdjColumns": "Nemůžete vsadit na všechny sousedící sloupce najednou.",
+    "cannotAdjDozens": "Nemůžete vsadit na všechny sousedící tucty najednou.",
+    "needPlaceBet": "Musíte uzavřít sázku.",
+    "loginProblem": "Problém s přihlášením na server.<br>Prosím, načtěte hru znovu.",
+    "knownError": "Vyskytl se problém.<br>Chyba: {0}<br>{1}",
+    "serverDown": "Upozorňujeme, že z důvodu údržby části našeho systému nemůžeme momentálně spustit žádnou novou hru. Pokud chcete hrát dál, kontrolujte dostupnost v pravidelných intervalech. Za způsobené nepříjemnosti se omlouváme.",
+    "geoBlocked": "Tato hra pro hráče ve vašem regionu bohužel momentálně není k dispozici. Ostatní hry jsou ale dostupné - stačí, když se stavíte v lobby a podíváte se na naši další nabídku.",
+    "gameDisabled": "Tato hra bohužel momentálně není k dispozici. Ostatní hry jsou ale dostupné - stačí, když se stavíte v lobby a podíváte se na naši další nabídku.",
+    "notAvailable": "Hra je nedostupná.<br>{0}",
+    "loggedOnOtherMachine": "Vaše sezení bylo přerušeno, protože tento uživatel je přihlášený z jiného místa.",
+    "lowBalance": "Tuto sázku nemůžete uzavřít, protože máte na účtu příliš nízký zůstatek.",
+    "lobbyAccountBalanceLimitation": "Momentálně nemůžete hrát o vklady v reálných penězích, protože nemáte dostatek peněz na účtu nebo kvůli jinému omezení. Můžete provést platbu nebo hrát jen pro zábavu.",
+    "tryingReconnect": "Spojení se serverem bylo přerušeno.<br>Pokus o obnovení spojení...",
+    "failedRestore": "Připojení k serveru bylo přerušeno.<br>Pokus o obnovení spojení nebyl úspěšný.<br>Prosím, načtěte hru znovu.",
+    "changeLimits": "Chci změnit své limity.",
+    "error_40015": "Vaše sezení v souladu se strategií Responsible Gamingu vypršelo. Chcete pokračovat?",
+    "error_60144": "Překročili jste svůj denní limit prohry a dnes už nemůžete hrát. Zítra můžete hrát dál.",
+    "error_59532": "Zvolená částka přesahuje limit prohry, který jste si sami nastavili. Do kasinové hry si s sebou můžete vzít jen {0}.",
+    "error_61869": "V této sekci nemůžete hrát hry o reálné peníze a nemáte z ní přístup do b'inside Marketu. Další informace vám podá naše zákaznická služba.",
+    "error_61870": "Rozhodli jste se pro trvalé vyloučení vlastní osoby z využívání všech našich sekcí.<br><br>Nemůžete hrát, provádět platby a nemáte přístup na stránky účtu. Pokud máte otázky, obraťte se na naši zákaznickou službu.",
+    "error_61871": "Rozhodli jste se pro uzavření přístupu k této sekci z vašeho účtu. V této sekci nemůžete hrát hry o reálné peníze a nemáte z ní přístup do b'inside Marketu. Další informace a informace o tom, jak změnit příslušná nastavení, najdete v oddílu Uzavření přístupu ke službám.",
+    "error_61872": "V této sekci nemůžete provést Rebuy a/nebo Add-on. Další informace vám podá naše <br>zákaznická služba.",
+    "error_61873": "Rozhodli jste se pro uzavření přístupu do této sekce z vašeho účtu. Proto nemůžete provést Rebuy a/nebo Add-on. <br>Další informace a informace o tom, jak změnit příslušná nastavení, najdete v oddílu Uzavření přístupu ke službám.",
+    "error_61874": "Rozhodli jste se pro vyloučení vlastní osoby ze všech našich sekcí. Z tohoto důvodu nemůžete<br> provést Rebuy/Add-on. Pokud máte otázky, obraťte se na naši zákaznickou službu.",
+    "error_61875": "Rozhodli jste se pro trvalé vyloučení vlastní osoby z využívání všech našich sekcí. Z tohoto důvodu nemůžete provést Rebuy/Add-on. Pokud <br>máte otázky, obraťte se na naši zákaznickou službu.",
+    "error_61876": "Rozhodli jste se pro vyloučení vlastní osoby z využívání všech našich sekcí.<br><br>Během tohoto období nemůžete hrát, provádět platby a nemáte přístup na stránky účtu. Pokud máte otázky, obraťte se na naši zákaznickou službu.",
+    "error_40387": "Poslední operace nemohla být provedena. Hra se teď zavře. Prosím, otevřete tuto hru znovu.",
+    "error_64707": "Zvolená částka přesahuje limit vašich denních nákladů. Zbývá už jen {0}.",
+    "error_64708": "Zvolená částka přesahuje limit vašich týdenních nákladů. Zbývá už jen {0}.",
+    "error_64709": "Zvolená částka přesahuje limit vašich měsíčních nákladů. Zbývá už jen {0}.",
+    "error_64710": "Bohužel už jste překročili limit svých denních nákladů.",
+    "error_64711": "Bohužel už jste překročili limit svých týdenních nákladů.",
+    "error_64712": "Bohužel už jste překročili limit svých měsíčních nákladů.",
+    "error_60019": "Sorry, we are now closed and no longer accepting new players, deposits or game play. If you have a real money account, your balance is accessible and you can cash out. Thank you for understanding.",
+    "PR_RCP": "Rádi bychom vás upozornili, že hrajete už více než {0} minut.<br>Vaše výhry/prohry v tomto sezení: <span>{1}</span><br>Váš zůstatek pro hraní: <span>{1}</span><br> Chcete hrát dál?",
+    "PR_RCPClosed": "Rozhodli jste se ukončit toto sezení z jiné hry. Tato hra se nyní zavře.",
+    "PR_SessionTimeLimit": "Zavázali jste se dodržovat maximální hrací dobu {0} minut.<br/>V tomto sezení hrajete už {1} minut.<br/><br/>Můžete se rozhodnout hrát dál nebo ze hry odejít.",
+    "USNJ_GeoLocMsg1": "Bohužel jsme nemohli z technických důvodů vyhodnotit vaši polohu. Prosím, zkuste to později znovu.",
+    "USNJ_GeoLocMsg2": "Bohužel vám nemůžeme dovolit pokračovat. Náš systém ukazuje, že jste v regionu, kde tuto operaci není možno provést. Důvodem jsou regulační opatření. <a href='{0}'>Další informace</a>",
+    "USNJ_GeoLocMsg3": "Bohužel nemůžeme ověřit váš pobyt v New Jersey. Když nám sdělíte číslo vašeho mobilu a zaregistrujete se pro službu určování polohy, máme mnohem větší šanci určit vaši polohu a umožnit vám hraní na naší stránce.",
+    "USNJ_SessionTimeLimit": "Požádali jste nás o nastavení denního časového limitu, který jste pro dnešek právě vyčerpali. Děkujeme, že jste u nás hráli. Těšíme se zítra nashledanou."
+  },
+  "customization": {
+    "digitGroupingSymbol": ",",
+    "decimalSymbol": "."
+  }
+}
